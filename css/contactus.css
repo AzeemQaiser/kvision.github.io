@@ -6,6 +6,7 @@
 .floating-label { 
   position:relative; 
   margin-bottom:3rem; 
+
 }
 .floating-input , .floating-select {
     font-size: 15px;
@@ -20,11 +21,12 @@
     border-bottom: 2px solid #17416D;
 }
 .floating-label label::before {
-     content: "*";
+    content: "*";
     padding-right: 10px;
     position: absolute;
     margin-left: -14px;
     margin-top: 4px;
+ 
 }
 .floating-input:focus , .floating-select:focus {
      outline:none;
@@ -70,9 +72,9 @@ label {
 }
 
 .floating-textarea {
-   min-height: 70px ;
-   max-height: 260px; 
-   overflow:hidden;
+  min-height: 70px ;
+  max-height: 260px; 
+  overflow:hidden;
   overflow-x: hidden; 
   margin-top: 5rem;
 }
@@ -84,7 +86,7 @@ label {
 }
 
 .floating-textarea:focus ~ label , .floating-select:not([value=""]):valid ~ label {
-  top:-30px !important;
+  top:-30px;
   font-size:14px;
   height:50px;
   color:#17416D;
@@ -97,7 +99,7 @@ label {
   top:15%; 
   left:0;
   pointer-events:none;
-  opacity:0.5;
+  opacity: 0.5;;
 }
 
 /* active state */
@@ -127,18 +129,19 @@ label {
 .floating-heading { position:fixed; color:#aaa; font-size:20px; }
 /***  daniel - Fork me friend - style  ***/
 
-
+/********************************************LEFT SIDE OF THE CONTACT FORM************************************************/
 .contactsec-form {
-      background: #D6E7F4;
+    
     padding-top: 2.5rem;
     padding-left: 3rem;
     padding-bottom: 2.5rem;
     padding-right: 3rem;
+    background-color: rgba(214, 231, 244, .5);
 }
 .contactsec-form h2 {
-    font-size: 32px;
-    font-weight: 600;
+    font-size: 46px;
     color: #17416D;
+    font-family: 'nolanthin';
 }
 .contactsec-formhead {
     margin-bottom: 2.5rem;
@@ -151,6 +154,8 @@ input.tbtn {
     font-weight: 700;
     width: 77px;
     height: 29px;
+    border-radius: 6px;
+  
 }
 .mandatoryRow {
     text-align: right;
@@ -161,16 +166,39 @@ input.tbtn {
 .mandatoryRow p {
     font-weight: 500;
 }
+
+.addrCol {
+    padding-left: 40px ;
+    padding-right: 0px ;
+    font-family: 'Lato';
+    background-color: pink;
+    
+}
+
 .addrCol p {
-   font-size: 15px;
+    font-size: 15px;
     line-height: 0.2;
     font-weight: 300;
+    
 }
+
+.addrCol hr {
+    width: 50%;
+    text-align: right;
+    margin-left: 0px;
+	padding-top: 16px;
+    /* padding-top: 3px; */
+    /* height: 2px; */
+    border-width: 1.5px;
+    border-color: #D6E7F4;
+   
+}
+
 p.contactsec-brntitle {
     color: #17416D;
     font-weight: bold;
 	 padding-bottom: 3px;
-	 font-size: 16px;
+	 font-size: 24px;
 
 }
 .contactsec-num {
@@ -179,56 +207,40 @@ p.contactsec-brntitle {
 .contactsec-addr {
    padding-bottom: 1.2rem
 }
-.addrCol hr {
-    width: 70%;
-    text-align: left;
-    margin-left: 0px;
-	    padding-top: 16px;
-    /* padding-top: 3px; */
-    /* height: 2px; */
-    border-width: 1.5px;
-    border-color: #D6E7F4;
-}
-.dotGrid1 {
-    background-size: 30px 32px;
-    background-image:radial-gradient(#DDEEFA 2.7px, transparent 0);
-    width: 48%;
-    height: 228px;
-    position: absolute;
-    opacity: 80%;
-    top: -2.5rem;
-    float: left;
-    padding-left: -11rem;
-    margin-left: 36rem;
-}
+
+
+
 .txtarea-lable{
 	    top: 40px !important;
 }
 @media (min-width: 992px){
 .addrCol {
-    padding-left: 40px !important;
-    padding-right: 0px !important;
-	    font-family: 'Lato';
+    padding-left: 40px ;
+    padding-right: 0px ;
+    font-family: 'Lato';
+    
+    
 }
 .contactsection{
-	margin-top: 2rem;
-    margin-left: 10rem;
-	margin-bottom: 2rem;
+	margin-top: 4rem;
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+    margin-right:5rem;
 }
 .contactsec-headrow h2 {
-      font-size: 40px;
+    font-family:'nolanthin';
+    font-size: 56px;
     font-weight: 400;
     padding-bottom: 1.5rem;
+    
 }
 .contactsec-headrow p {
-    font-size: 15px;
-     font-family: 'Lato';
+    font-size: 18px;
+    font-family: 'Lato';
     line-height: 1.4;
     font-weight: 300;
-}
-.container.contactdiv {
-    margin-top: 1.5rem;
-}
+    }
+
 .maskrow {
     position: absolute;
     z-index: 0;
@@ -237,7 +249,7 @@ p.contactsec-brntitle {
     margin-left: 65%;
 }
 .maskrow img {
-       float: right;
+    float: right;
     width: 300px;
     height: 19.5rem;
 }
@@ -276,6 +288,7 @@ p.contactsec-brntitle {
     margin-top: 1.5rem;
 	padding-right: 0px;
     padding-left: 0px;
+    
 }
 .contactsec-headrow h2 {
          font-size: 16px;
@@ -373,8 +386,8 @@ p.contactsec-brntitle {
 }
 .contactsec-form h2 {
     font-size: 32px;
-    font-weight: 500;
-    color: #000;
+    font-weight: 100;
+    color: #17416d;
     width: 100%;
     text-align: center;
 }
@@ -391,6 +404,7 @@ p.contactsec-brntitle {
 }
 .floating-label {
     margin-bottom: 4rem;
+
 }
 .contactsec-form input.tbtn {
     background-color: #172738;
@@ -439,10 +453,12 @@ p.contactsec-brntitle {
     width: 300px;
     height: 19.5rem;
 }
-/*footer css*/
+
+
+/**************************************** FOOTER STYLE STARTS HERE ***********************************************/
  .footersecnew1{
     background-color: #1d3855 !important;
-    font-family: Nolan !important;
+    font-family: 'nolanthin', sans-serif;
     color: #7D8D9D !important;
     font-weight: 600 !important;
     padding: 40px 30px !important;
@@ -497,3 +513,4 @@ p.contactsec-brntitle {
 	
 	
 }
+
