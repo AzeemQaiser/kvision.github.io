@@ -759,14 +759,24 @@ a {
 
 
 .cid-sckHfhtRnm .mbr-text {
-  color: #5F676F;
+  color: #ffffff;
 }
 .mbr-text {
     font-style: normal;
     line-height: 1.5;
-    font-family: Century Gothic;
-    font-weight: 600;
-    font-size: 10px;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.footer-horizontal-rule {
+	border-top: 1px solid #4de4c6;
+	width: 690px;
+	margin-right: 370px;
+	opacity: 0.4;
+}
+.footer-heading {
+	font-size: 23px;
 }
 .cid-sckHfhtRnm .mbr-iconfont {
   color: black;
