@@ -1,5 +1,5 @@
 section.career {
-     background-color: #414141;
+     /* background-color: #414141; */
      height: 330px;
      margin-bottom: 190px;
 }
@@ -11,7 +11,7 @@ section.career .container .row {
     position: relative;
 }
  .title {
-     color: #ffff;
+     color: black;
      margin-top: 5rem;
      margin-bottom: 47px;
 }
@@ -31,8 +31,20 @@ section.career .container .row {
 	left: -36%;
 }
 
+.buttonsub {
+	background: #17416D;
+	font-size: 12px;
+	font-weight: 100;
+	color: white;
+	font-weight: 700;
+	width: 200px;
+    height: 29px;
+    border: 0px;
+    border-radius: 5px;
+}
+
  .bg-car {
-      background-color: #f4faff;
+      /* background-color: #f4faff; */
     position: absolute;
     padding-left: 25px;
     padding-right: 25px;
@@ -108,11 +120,14 @@ section.career-1 {
 section.career-2 {
     margin-top: 50px;
     margin-bottom: 80px;
+    background-color: #D6E7F4;
+    height: 400px;
 }
 .career-2 .container {
     padding-left: 88px;
     padding-right: 0;
     position: relative;
+
 }
 img.corner-IMG {
     width: 90px;
@@ -127,6 +142,7 @@ img.corner-IMG {
     width: 100%;
     z-index: 1;
     position: relative;
+    border-radius: 20px;
 }
 .career-2 .container p.div-txt {
     margin: 0 auto;
@@ -148,10 +164,10 @@ section.career-2 .center {
 }
 section.career-2 .center p {
     width: 100%;
-    background-color: #17416d;
+    /* background-color: #17416d; */
     font-size: 26px;
     text-align: center;
-    color: #fff;
+    color: black;
     padding: 16px 10px 16px;
 	margin-bottom: 0;
 }
@@ -167,14 +183,18 @@ section.diversitySection {
     padding-bottom: 10px;
     letter-spacing: -1.01px;
     font-family: 'Lato';
+    padding-left: 50px;
+    padding-right: 50px;
  }
  p.out-txt {
         font-size: 12px;
     color: #244E89;
     font-weight: 500;
     line-height: 1.5;
-    font-family: Arial;
+    font-family: 'Lato';
     letter-spacing: -0.16px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
  p.out-txt1 {
      font-size: 13px;
@@ -184,9 +204,9 @@ p.div-txt {
     text-align: center;
     padding-top: 40px;
     font-size: 18px;
-    color: #A2A3A3;
+    color: black;
     margin-left: 8rem;
-    /* font-family: 'Lato'; */
+    font-family: 'Lato';
     font-weight: initial;
     letter-spacing: -0.8px;
     line-height: 1.3;
@@ -236,6 +256,7 @@ margin: 0 auto;
     width: 100%;
     text-align: center !important;
     margin: 0 auto;
+    background-color: transparent;
 }
 .location .row {
     margin: 0;
@@ -259,17 +280,19 @@ margin: 0 auto;
 }
 img.man-IMG {
  width: 190px;
-    height: 185px;
+ height: 185px;
+ border-radius: 50%;
 }
 .img-1 {
-      border: 1.4px solid #9CCEDD;
-    padding: 2rem 2rem 0rem 2rem;
+      /* border: 1.4px solid #9CCEDD; */
+    /* padding: 2rem 2rem 0rem 2rem; */
     height: 16rem;
 }
 .word {
   padding-left: 4rem;
     font-size: 18px;
     padding-right: 3rem;
+    text-align: left;
 }
 .word p {
 font-weight: 400;
@@ -289,14 +312,14 @@ p.career-name {
     letter-spacing: -0.16px;
 }
 img.uparrow {
-    transform: rotate(270deg);
+    /* transform: rotate(270deg); */
     transform-origin: left top;
     width: 40px;
     padding-bottom: 13rem;
     margin-top: -0.5rem;
 }
 img.downarrow {
-       transform: rotate(90deg);
+       /* transform: rotate(90deg); */
     transform-origin: left bottom;
     width: 40px;
     /* padding-bottom: 0px; */
@@ -392,6 +415,17 @@ p.head-3 {
     margin-top: -20px;
     text-align: left;
 }
+
+.tech-IMG {
+    border-radius: 30px;
+    width: 300px;
+    height: auto;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+}
+
 img.tag-IMG {
     display: inline-flex;
     width: 147%;
@@ -408,6 +442,7 @@ img.tag-IMG {
     display: flex;
     /* box-shadow: 0 2px 2px rgba(0,0,0,0.16), 0 2px 2px rgba(0,0,0,0.11); */
     -webkit-box-shadow: 0 10px 6px -6px #777;
+    border-radius: 30px;
     -moz-box-shadow: 0 10px 6px -6px #777;
     /* box-shadow: 5px 10px 18px #EDEDED; */
     -webkit-box-shadow: 0px 2px 8px 2px rgba(0,0,0,0.75);
@@ -416,12 +451,22 @@ img.tag-IMG {
     position: relative;
     z-index: 10;
 }
+
+.outer-boundary {
+    background: transparent;
+}
+
 .backdiv {
    width: 80%;
     background: #ffff;
-    height: 2.5rem;
+    height: 1.5rem;
     /* top: -16px; */
     margin-left: 7.2rem;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -webkit-box-shadow: 0px 2px 8px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 8px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 8px 2px #EAECF4;
+    border-radius: 0 0 30px 30px;
 }
     .swiper-container {
       width: 100%;
@@ -445,6 +490,7 @@ img.tag-IMG {
       -webkit-box-align: center;
       -ms-flex-align: center;
       -webkit-align-items: center;
+      background-color: transparent;
       
     }
 	img.uparrow.swiper-button-disabled {
@@ -473,7 +519,7 @@ img.downarrow.swiper-button-disabled {
 }
 @media (max-width: 768px) {
 	section.career {
-     background-color: #414141;
+     /* background-color: #414141; */
      height: 240px;
      margin-bottom: 190px;
 }
@@ -549,6 +595,7 @@ height: 55rem;
 .word {
     font-size: 18px;
     /* padding-right: 0; */
+    text-align: left;
     display: block;
     position: absolute;
     width: 100%;
@@ -562,6 +609,12 @@ height: 55rem;
     background: #F4FAFF;
 	    padding-bottom: 1rem;
 }
+
+/* .testimonialText {
+    text-align: left;
+    background-color: #15aae2;
+} */
+
 .page {
     background-color: transparent;
     box-shadow: none;
@@ -619,10 +672,11 @@ img.downarrow.swiper-button-disabled {
       display: none;
 }
 .img-1 {
-      border: 2.4px solid #9CCEDD;
+      /* border: 2.4px solid #9CCEDD; */
     padding: 2rem 2rem 0rem 2rem;
     height: 16rem;
-	z-index: 1;
+    z-index: 1;
+    border-radius: 50%;
 }
 .testimonial-smallbox {
     position: absolute;
