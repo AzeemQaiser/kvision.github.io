@@ -214,6 +214,7 @@ p.div-txt {
 .swipe .container .page {
     margin-left: 55px;
     width: auto;
+    border-radius: 6px;;
 }
 .sliderBtn .uparrow, .sliderBtn .downarrow {
     cursor: pointer;

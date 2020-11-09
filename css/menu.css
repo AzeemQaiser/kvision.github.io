@@ -22,7 +22,7 @@
   padding: 0;
 }
 .cid-s48OLK6784 .dropdown-item {
-  border-bottom: 1px solid #e6e6e6;
+  border-bottom: 0px solid #e6e6e6;
 }
 .cid-s48OLK6784 .dropdown-item:hover,
 .cid-s48OLK6784 .dropdown-item:focus {
@@ -48,7 +48,7 @@
 }
 .cid-s48OLK6784 .dropdown-menu,
 .cid-s48OLK6784 .navbar.opened {
-  background: #292f33 !important;
+  background: #ffffff !important;
 }
 .cid-s48OLK6784 .nav-item:focus,
 .cid-s48OLK6784 .nav-link:focus {
@@ -111,10 +111,7 @@
 .cid-s48OLK6784 .navbar.collapsed .dropdown-menu .dropdown-toggle[data-toggle="dropdown-submenu"]:after {
   margin-left: 0.5rem;
   margin-top: 0.2rem;
-  border-top: 0.35em solid;
-  border-right: 0.35em solid transparent;
-  border-left: 0.35em solid transparent;
-  border-bottom: 0;
+  
   top: 55%;
 }
 .cid-s48OLK6784 .navbar.collapsed ul.navbar-nav li {
