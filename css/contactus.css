@@ -174,19 +174,23 @@
       line-height: 0.2;
       font-weight: 300;
   }
-  p.contactsec-brntitle {
-      color: #17416D;
-      font-weight: bold;
-       padding-bottom: 3px;
-       font-size: 16px;
   
+  p.contactsec-brntitle {
+    font-family:'Lato';
+    color: #17416D;
+    font-weight: bold;
+    font-size: 16px;
   }
+  
   .contactsec-num {
       padding-bottom: 1px;
   }
+  
   .contactsec-addr {
-     padding-bottom: 1.2rem
-  }
+     padding-bottom: .2rem;
+    }
+
+
   .addrCol hr {
       width: 70%;
       text-align: left;
@@ -211,6 +215,24 @@
   }
   .txtarea-lable{
           top: 40px ;
+  }
+
+  .some-page-wrapper {
+    margin: 15px;
+    background-color: red;
+  }
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 90%;
+    flex: 1;
   }
   
   
@@ -261,6 +283,25 @@
       padding-left: 70px;
       padding-right: 0px;
   }
+
+  p.contactsec-brntitle {
+    font-family:'Lato';
+    color: #17416D;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  p.contactsec-addr {
+      padding-top: -0.2rem;
+    padding-bottom: 0.2rem;
+   }
+  
+  .contactsec-num {
+      padding-bottom: 1px;
+  }
+  
+ 
+
   }
 
   /*STYLE FOR LESS THAN 992 PX WIDTH*/
