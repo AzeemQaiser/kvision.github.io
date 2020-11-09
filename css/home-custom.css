@@ -126,6 +126,11 @@ tr {
 	width: 50%;
     float: right;
 }
+.sectst-imgwrap3{
+    float: left;
+    width: 30%;
+    display: inline-block;
+}
 div#page-wrap {
     overflow-x: auto;
 	overflow-y: hidden;
