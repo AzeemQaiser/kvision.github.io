@@ -587,23 +587,22 @@ button.click {
 	position: relative;
 }
 .partner-highlighttxt {
-    background: #90B2CB;
     padding-left: 9px;
-    width: 45%;
+    width: 55%;
     text-align: center;
     /* padding-top: 0.7rem; */
     /* padding-bottom: 0.7rem; */
     padding-bottom: -0.3rem;
-    margin-left: 3.5rem;
-    color: #ffff;
-    font-size: 25px;
+    margin:0 auto;
+    color: #000000;
+    font-size: 56px;
     /* margin-top: 2px; */
     /* line-height: 0.5; */
 }
 .partner-highlighttxt p {
-    /* line-height: 1; */
     padding-bottom: 0.7rem;
     padding-top: 0.7rem;
+	text-align: center;
 }
 .partner-img {
     margin-top: -1rem;
@@ -615,11 +614,13 @@ button.click {
     padding-top: 1rem;
 }
 .partnersec-txt p {
-    font-size: 14px;
-    color: #5F7C9B;
-    font-weight: 500;
-    line-height: 1.5;
+    font-size: 26px;
+    color: #000000;
+    font-weight: 100;
+    line-height: 1;
 	font-family: 'Lato';
+	text-align: center;
+	width: 120%;
 }
 img.partnersec-scrip-img {
        width: 10%;
