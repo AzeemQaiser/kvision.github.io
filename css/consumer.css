@@ -998,7 +998,7 @@ section#section5 {
 	}
 
 	.gridrow {
-		display: block !important;
+		display: block;
 	}
 
 	.consumer-con p {
@@ -1011,7 +1011,7 @@ section#section5 {
 	}
 
 	.padtop {
-		padding-top: 13rem !important;
+		padding-top: 13rem;
 		position: absolute;
 		left: 0px;
 	}
