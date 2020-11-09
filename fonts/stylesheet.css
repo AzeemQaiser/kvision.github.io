@@ -116,6 +116,17 @@
 }
 
 @font-face {
+    font-family: 'lato-light';
+    src: url('lato-light.eot');
+    src: url('lato-light.eot?#iefix') format('embedded-opentype'),
+        url('lato-light.woff2') format('woff2'),
+        url('lato-light.woff') format('woff'),
+        url('lato-light.ttf') format('truetype'),
+        url('lato-light.svg#Lato-Hairline') format('svg');
+    
+}
+
+@font-face {
     font-family: 'Lato';
     src: url('Lato-Regular.eot');
     src: url('Lato-Regular.eot?#iefix') format('embedded-opentype'),
