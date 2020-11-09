@@ -26,12 +26,14 @@ section.solution.target {
 }
 
 img.scrip-IMG {
-	width: 200px;
-	margin-top: 13.5rem;
+	width: 185px;
+	margin-top: 8.5rem;
 	position: absolute;
-	height: 13.6rem;
+	height: 27.6rem;
 	left: -118px;
 }
+
+
 
 .con-head {
 	padding-top: 2rem;
@@ -193,11 +195,11 @@ section.plat {
 
 .plat-head h2 {
 	font-size: 56px;
-    font-weight: 100;
-    font-family: "Lato", sans-serif;
-    letter-spacing: -2.8px;
-    color: #17416d;
-    margin-top: 65px;
+	font-weight: 100;
+	font-family: "nolanlight";
+	letter-spacing: -2.8px;
+	color: #17416d;
+	margin-top: 65px;
 }
 
 .plat .platform {
@@ -342,10 +344,11 @@ ul.cases4 {
 }
 
 .case-head h2 {
-	font-size: 26px;
+	font-size: 36px;
 	letter-spacing: -1.01px;
 	color: #17416D;
-	font-weight: 500;
+	font-weight: 100;
+	font-family: "nolanlight";
 }
 
 ul.case-con {
@@ -460,48 +463,52 @@ img.arrowright-img {
 .camera-head h2 {
 	text-align: center;
 	padding-top: 4rem;
-	font-size: 26px;
+	font-size: 36px;
 	font-weight: 500;
 	margin-left: -6rem;
+	font-family: "nolanlight";
+	letter-spacing: -2.8px;
 }
 
 .camera-head p {
 	text-align: center;
 	padding-top: 1rem;
-	font-size: 16px;
+	font-size: 14px;
 	font-family: 'Lato';
 	font-weight: 300;
 	padding-left: 9rem;
 	padding-right: 10rem;
+	margin-bottom: 20px;
 
 }
 
 img.homesec-img {
 	margin-left: -68px;
 	width: 107%;
-	height: 15rem;
-	margin-top: 246px;
+}
+
+.invisible-img-house {
+	display: none;
 }
 
 .row.con-bordersec {
 	height: auto;
 	width: 96%;
 	margin: 0 0 0 5%;
-	border: 1px solid #90B2CB;
+	/*	border: 1px solid #90B2CB; removed border as per new design */
 }
 
 button.click {
-	margin-top: -1px;
+	margin: 16px auto;
 	position: absolute;
-	color: #ffff;
-	background-color: #3891ed;
+	left: 50%;
+	color: #000000;
+	background-color: transparent;
 	border-style: hidden;
-	font-size: 12px;
-	/* padding-top: 3px; */
-	height: 24px;
-	width: 54px;
+	font-size: 24px;
+	text-align: center;
+	font-weight: 700;
 	font-family: 'Lato';
-	font-weight: 500;
 }
 
 .partnerdiv {
@@ -511,16 +518,16 @@ button.click {
 }
 
 .partner-highlighttxt {
-	background: #90B2CB;
 	padding-left: 9px;
-	width: 41%;
+	width: 80%;
+	font-family: "nolanlight";
 	text-align: center;
 	/* padding-top: 0.7rem; */
 	/* padding-bottom: 0.7rem; */
 	padding-bottom: -0.3rem;
 	margin-left: 4.4rem;
-	color: #ffff;
-	font-size: 25px;
+	color: #000000;
+	font-size: 56px;
 	/* margin-top: 2px; */
 	/* line-height: 0.5; */
 }
@@ -543,11 +550,13 @@ button.click {
 }
 
 .partnersec-txt p {
-	font-size: 13px;
-	color: #6b94bf;
-	font-weight: 500;
-	line-height: 1.5;
-	font-family: arial;
+	font-size: 26px;
+	color: #000000;
+	font-weight: 100;
+	line-height: 1;
+	font-family: 'Lato';
+	text-align: center;
+	width: 120%;
 }
 
 img.partnersec-scrip-img {
@@ -557,10 +566,7 @@ img.partnersec-scrip-img {
 	height: 5rem;
 }
 
-section#section5 {
-	margin-top: 3rem;
 
-}
 
 ul.camera-libary {
 	list-style-type: none;
@@ -569,24 +575,18 @@ ul.camera-libary {
 
 .camera {
 	width: 100%;
-	margin-top: -26rem;
+/*		margin-top: -26rem;*/
 }
 
-.demos-camera {
-	background-color: aliceblue;
-	height: 22rem;
-	width: 78%;
-	margin-left: 30px;
-
-}
 
 .demos-camera h1 {
 	text-align: center;
 	font-size: 18px;
 	font-weight: 600;
 	padding-top: 2rem;
-	padding-bottom: 1rem;
+	padding-bottom: .5rem;
 	font-family: 'Lato';
+	margin-bottom: 0;
 }
 
 .demos-camera p {
@@ -594,21 +594,21 @@ ul.camera-libary {
 	padding-right: 2rem;
 	padding-left: 2rem;
 	font-size: 12px;
-	font-family: arial;
-	font-weight: 300;
+	font-family: "Lato";
+	font-weight: 100;
 	letter-spacing: -0.16px;
-	color: #244E89;
-	line-height: 1.4;
+	color: #000000;
+	line-height: 1.2;
 }
 
 .demos-camera {
-	background-color: aliceblue;
-	height: 24rem;
+	height: 20rem;
 	margin-left: 44px;
 	margin-top: 2rem;
-	width: 75%;
-
+	width: 100%;
 }
+
+
 
 .babycamera h1 {
 	text-align: center;
@@ -620,55 +620,63 @@ ul.camera-libary {
 }
 
 .babycamera p {
-	line-height: 1.4;
+	line-height: 1.2;
 	/* color: #496a8d; */
 	text-align: center;
 	padding-right: 2rem;
 	padding-left: 2rem;
 	font-size: 12px;
-	font-family: arial;
-	font-weight: 300;
+	font-family: "Lato";
+	font-weight: 100;
 	letter-spacing: -0.16px;
-	color: #244E89;
+	color: #000000;
+}
+
+.babycamera-1 {
+	height: 20rem;
+	width: 82%;
+	margin-left: -46px;
+	/*	margin-top: -1rem;*/
+	margin-top: 2rem;
 }
 
 .babycamera {
-	background-color: #abd6fb;
-	height: 27rem;
-	width: 82%;
-	margin-left: -46px;
-	margin-top: -1rem;
+	height: 20rem;
+	margin-left: 44px;
+	margin-top: 2rem;
+	width: 100%;
 }
+
 
 .doorbell h1 {
 	text-align: center;
 	font-size: 18px;
 	font-weight: 600;
 	padding-top: 2rem;
-	padding-bottom: 1rem;
+/*	padding-bottom: 1rem;*/
 	font-family: 'Lato';
 }
 
 .doorbell p {
-	line-height: 1.4;
+	line-height: 1.2;
 	/* color: #496a8d; */
 	text-align: center;
 	padding-right: 2rem;
 	padding-left: 2rem;
 	font-size: 12px;
-	font-family: arial;
-	font-weight: 300;
+	font-family: "Lato";
+	font-weight: 100;
 	letter-spacing: -0.16px;
-	color: #244E89;
+	color: #000000;
 }
 
 .doorbell {
-	background-color: aliceblue;
-	height: 24rem;
+	height: 20rem;
 	width: 82%;
 	margin-left: -104px;
-	margin-top: 2rem;
 }
+
+
 
 .demos-img {
 	background-color: #f6fffe;
@@ -682,27 +690,37 @@ ul.camera-libary {
 	width: 81%;
 }
 
+
 img.demoscamera1-img {
-	width: 57%;
-	margin-left: 64px;
-	background-color: #fafeff;
-	margin-top: 22px;
+	width: 27%;
+	margin-left: 84px;
+	margin-top: 12px;
 	padding-bottom: 7px;
 	padding-top: 5px;
 }
 
 img.demoscamera2-img {
 	/* width: 62%; */
-	width: 87%;
-	margin-left: 1rem;
+	width: 100%;
+	margin-top: 145px;
+	transform: scale(1.6);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.baby-camera-margin-btm {
+	margin-bottom: 160px;
 }
 
 img.demoscamera3-img {
-	width: 57%;
-	margin-left: 64px;
-	background-color: #fafeff;
-	margin-top: 22px;
-	padding-bottom: 9px;
+	width: 50%;
+	margin-left: 54px;
+	margin-bottom: 40px;
+}
+
+img.demoscamera4-img {
+	width: 70%;
+	margin: 25px auto;
 }
 
 img.homesec-img {
@@ -721,7 +739,7 @@ img.homesec1-img {
 }
 
 button.click-1 {
-	margin-top: 10px;
+	margin-top: 30px;
 	/* position: absolute; */
 	color: #ffff;
 	background-color: #3891ed;
@@ -823,27 +841,43 @@ button.click-1 {
 	padding-left: 2rem;
 }
 
+
 .camerasec .camera-libary {
-	margin: 0 auto 0 8% !important;
-	width: 90%;
+	margin: 0 auto  !important;
+	width: 100%;
 	padding: 0;
 }
 
 .camera-libary li:nth-child(1),
 .camera-libary li:nth-child(3) {
-	margin-top: 13px;
+/*	margin-top: 13px;*/
+}
+
+.blue-gradient {
+		background-image: linear-gradient(#EFF8FF, #648CB4);
+
+}
+
+.green-gradient {
+	background-image: linear-gradient(#EFF8FF, #8FCBD3);
+}
+.rounded-corners {
+	border-radius: 20px;
 }
 
 .camera-libary li {
-	width: 29.3%;
+	width: 23.3%;
+	margin: 0 13px;
 }
 
 .camera-libary li:nth-child(2) {
-	margin-top: -39px;
+	/*	margin-top: -39px;*/
+	border-radius: 25px;
+
 }
 
 .camera-libary li > div {
-	height: auto;
+/*	height: auto;*/
 	margin: 0;
 	margin-top: 0px;
 	margin-top: 0;
@@ -998,7 +1032,7 @@ section#section5 {
 	}
 
 	.gridrow {
-		display: block;
+		display: block !important;
 	}
 
 	.consumer-con p {
@@ -1011,7 +1045,7 @@ section#section5 {
 	}
 
 	.padtop {
-		padding-top: 13rem;
+		padding-top: 13rem !important;
 		position: absolute;
 		left: 0px;
 	}
@@ -1318,7 +1352,6 @@ section#section5 {
 	}
 
 	.camerasec .row.con-bordersec {
-		margin: 0;
 		width: 100%;
 		border: 0;
 	}
@@ -1347,7 +1380,7 @@ section#section5 {
 
 	.camera {
 		width: 100%;
-		margin-top: 0;
+		margin-top: 350px;
 	}
 
 	.camerasec .camera-libary {
@@ -1355,6 +1388,7 @@ section#section5 {
 		width: 100%;
 		padding: 0;
 		display: block;
+
 	}
 
 	.camera-libary li {
