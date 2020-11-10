@@ -69,7 +69,7 @@ img.lines-IMG {
 }
 
 .illustrative.icon h2 {
-    font-size: 56px;
+    font-size: 36px;
     font-weight: 500;
 	font-family: "nolanlight";
 }
@@ -179,7 +179,7 @@ section.plat {
     margin-left: -108px;
 }
 .plat-head h2 {
-	    font-size: 56px;
+	    font-size: 36px;
     font-weight: 500;
     color: #17416D;
 	font-family: "nolanlight";
@@ -310,10 +310,14 @@ ul.cases4 {
   
 }
 .case-head h2 {
-   font-size: 26px;
-    letter-spacing: -1.01px;
-    color: #17416D;
+
+	    font-size: 36px;
     font-weight: 500;
+    color: #17416D;
+	font-family: "nolanlight";
+	margin-top: 75px;
+	margin-bottom: 25px;
+
 }
 
 ul.case-con {
@@ -324,6 +328,11 @@ padding-left: 66px;
 img.dog-IMG {
     width: 100%; 
     height: 23rem;
+    border-radius: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 
@@ -344,22 +353,29 @@ ul.case-con li {
 .hed-sol {
 	font-family: 'Nolan';
     text-align: center;
-    background-color: #131212;
+
+    background-color: #2e5074;
     opacity: 80%;
     color: white;
     position: absolute;
     /* width: 28%; */
-    width: 100%;
+    height: 12.5rem;
+    width: 12.5rem;
     font-size: 23px;
-    height: 5.5rem;
-    padding-top: 31px;
+    padding-top: 90px;
     top: 9rem;
-    /* margin-left: 97px; */
+    margin-left: 30px;
+    margin-top: -60px;
     padding-left: 1rem;
     padding-right: 1rem;
+    border-radius: 50%;
+}
+.hed-sol.alter {
+    background-color: black;
 }
 h1.hed-sol.frstcontent {
-    padding-top: 19px;
+    /* padding-top: 19px; */
+    /* width: 50%; */
 }
 .overlay {
     width: 100%;
@@ -393,14 +409,16 @@ img.arrowleft-img {
     margin-left: 0;
     margin-top: 10.3rem;
     position: absolute;
-    transform: rotate(180deg);
-	left: 18px;
+    left: 18px;
+    /* padding: 20px; */
+    /* background-color: black; */
 }
 img.arrowright-img {
-width: 45px;
+    width: 45px;
     margin-left: 0;
     margin-top: -12.6rem;
     position: absolute;
+    transform: rotate(180deg);
     right: -31px;
 }
 .dot {
@@ -459,17 +477,13 @@ margin-right: auto;
 padding-left: 0;
 }
 .partner-highlighttxt {
-    padding-left: 9px;
-    width: 80%;
-    text-align: center;
-    /* padding-top: 0.7rem; */
-    /* padding-bottom: 0.7rem; */
-    padding-bottom: -0.3rem;
-    margin-left: 4.4rem;
-    color: #17416d;
-    font-size: 56px;
-    /* margin-top: 2px; */
-    /* line-height: 0.5; */
+	    font-size: 36px;
+    font-weight: 500;
+    color: #17416D;
+	font-family: "nolanlight";
+	margin-top: 75px;
+	margin-bottom: 25px;
+
 }
 .partner-highlighttxt p {
     /* line-height: 1; */
@@ -479,14 +493,19 @@ padding-left: 0;
 .partner-img {
     margin-top: -1rem;
     margin-bottom: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
 .partnersec-txt {
     width: 80%;
-    padding-left: 4.4rem;
+    padding-left: 8.4rem;
     padding-top: 15px;
+    align-items: center;
 }
 .partnersec-txt p {
-     	 font-size: 26px;
+     	 font-size: 21px;
     color: #000000;
     font-weight: 100;
     line-height: 1;
@@ -759,8 +778,18 @@ input, input::-webkit-input-placeholder {
     font-family: arial;
 }
 section.usecasesec {
-    margin-bottom: 0;
+    /* margin-bottom: 0; */
     margin-left: 0;
+    /* background-color: #244E89; */
+    /* background-color: #cccccc; */
+    background-image: url("/images/Business/Mask_Group_15@2x.png");
+    height: 300px;
+    margin-bottom: 300px;
+    background-position: 0px 250px;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    position: relative;
+    /* background-image: "images/Business/Mask_Group_15@2x.png"; */
 }
 section#section5 {
     margin-top: 3rem;
