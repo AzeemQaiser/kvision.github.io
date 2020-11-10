@@ -953,8 +953,8 @@ section.usecasesec {
     /* background-color: #cccccc; */
     background-image: url("/images/Business/Mask_Group_15@2x.png");
     height: 300px;
-    margin-bottom: 300px;
-    /* background-position: center; */
+	margin-bottom: 300px;
+    background-position: 0px 250px;
     /* background-repeat: no-repeat; */
     /* background-size: cover; */
     position: relative;
