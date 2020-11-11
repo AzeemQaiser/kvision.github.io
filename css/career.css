@@ -121,7 +121,7 @@ section.career-1 {
 }
 section.career-2 {
     margin-top: 50px;
-    margin-bottom: 80px;
+    margin-bottom: 0px;
     background-color: #D6E7F4;
     height: 450px;
 }
@@ -270,7 +270,7 @@ section.swipe ul {
 
  .location {
    font-size: 30px;
-    margin-bottom: 4rem;
+    margin-bottom: -6rem;
     margin-top: 5rem;
 }
 .location .container {
@@ -288,6 +288,10 @@ section.swipe ul {
     max-width: unset;
     width: 80%;
     margin: 0 auto;
+}
+
+a, a:hover {
+    color: #fff;
 }
 .dotGrid.vac {
     /* background-size: 20px 20px;
