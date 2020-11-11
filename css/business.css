@@ -29,15 +29,15 @@ section.solution.target {
 
 img.scrip-IMG {
     /* width: 185px; */
-    margin-top: 8.5rem;
-    position: absolute;
-    height: 420.95px;
-    left: -100px;
-    transform: rotate(270deg);
     /* position: absolute; */
-    height: 200px;
-    width: 500px;
-    left: -250px;
+    /* margin-top: 8.5rem; */
+    position: absolute;
+    /* height: 420.95px; */
+    /* left: -100px; */
+    /* transform: rotate(270deg); */
+    /* height: 200px; */
+    /* width: 500px; */
+    left: -150px;
 }
 
 .con-head {
@@ -335,16 +335,13 @@ ul.case-con {
 padding-left: 66px;
 }
 img.dog-IMG {
-    width: 100%; 
-
-  
-
+    width: 17rem; 
     height: 23rem;
-    border-radius: 10px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
+    border-radius: 20px;
+    /* border-top-right-radius: 20px; */
+    /* border-bottom-right-radius: 20px; */
+    /* margin-left: 0px;
+    margin-right: 0px; */
 
 }
 
@@ -359,8 +356,17 @@ ul.case-con li {
 
 .swiper-slide:hover .overlay {
     display:block;
-    background-color:#dcedf8;
+    background-color:#496a8d;
     opacity:0.75;
+    width: 17rem;
+    height: 23rem;
+    border-radius: 20px;
+
+}
+
+.swiper-slide:hover .overlay .alter {
+    /* background-color:#000; */
+
 }
 .swiper-slide:hover .in-con {
     display:none;
@@ -368,12 +374,7 @@ ul.case-con li {
 .hed-sol {
 	font-family: 'Nolan';
     text-align: center;
-
-    
-
-
     background-color: #2e5074;
-
     opacity: 80%;
     color: white;
     position: absolute;
@@ -420,14 +421,14 @@ h1.hed-sol.frstcontent {
        font-size: 22px;
     font-weight: 500;
     padding-bottom: 1rem;
-    color: #172738;
+    color: white;
     font-family: 'Nolan';
 }
 p.par-1 {
   line-height: 1.3;
     font-size: 15px;
     font-weight: 300;
-    color: black;
+    color: white;
     font-family: 'Lato';
 }
 img.arrowleft-img {
@@ -435,7 +436,7 @@ img.arrowleft-img {
     margin-left: 0;
     margin-top: 10.3rem;
     position: absolute;
-    left: 18px;
+    left: -68px;
     /* padding: 20px; */
     /* background-color: black; */
 }
@@ -445,7 +446,7 @@ img.arrowright-img {
     margin-top: -12.6rem;
     position: absolute;
     transform: rotate(180deg);
-    right: -31px;
+    right: -51px;
 }
 .dot {
     height: 8px;
@@ -807,18 +808,14 @@ input, input::-webkit-input-placeholder {
     font-family: arial;
 }
 section.usecasesec {
-    /* margin-bottom: 0; */
     margin-left: 0;
-    /* background-color: #244E89; */
-    /* background-color: #cccccc; */
     background-image: url("/images/Business/Mask_Group_15@2x.png");
     height: 500px;
     margin-bottom: 50px;
     background-position: 0px 250px;
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
-    position: relative;
-    /* background-image: "images/Business/Mask_Group_15@2x.png"; */
+    /* background-repeat: repeat-x; */
+    background-size: cover;
+    /* position: relative; */
 }
 section#section5 {
     margin-top: 3rem;
@@ -1428,7 +1425,7 @@ p.par-1 {
 }
 }
 .swiper-slide {
-    margin-right: 30px !important;
+    /* margin-right: 30px !important; */
     margin-left: 0px !important;
 	
 	border-radius: 30px;
