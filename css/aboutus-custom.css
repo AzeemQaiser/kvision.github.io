@@ -2995,7 +2995,7 @@ li.rollingstone {
 	.add-1 {
 		font-size: 14px;
 		font-family: arial;
-		clor: #17416d;
+		color: #17416d;
 	}
 
 /*
@@ -3709,7 +3709,7 @@ section.hdrsec2 {
 	margin-top: 5rem;
 	margin-bottom: 6rem;
 	width: 100%;
-	/* background-color: #f4faff; */
+	background-color: #f4faff;
 	min-height: 532px;
 }
 

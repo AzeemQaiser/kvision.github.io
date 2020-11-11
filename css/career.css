@@ -24,10 +24,10 @@ section.career .container .row {
     /* background-color: #f4faff; */
     background-color: #bce1ff;
     width: 100%;
-	height: 8rem;
+	height: 5rem;
 	position: absolute;
 	/* opacity: 13%; */
-	top: 18px;
+	top: 68px;
 	margin-left: 0;
 	/* left: -36%; */
 }
@@ -47,16 +47,17 @@ section.career .container .row {
 
  .bg-car {
       /* background-color: #f4faff; */
-    position: absolute;
-    padding-left: 25px;
-    padding-right: 25px;
+    width: fit-content;
+      position: absolute;
+    /* padding-left: 25px; */
+    /* padding-right: 25px; */
     padding-top: 1.5rem;
     padding-bottom: 0.5rem;
     margin-right: 0px;
 }
  .bg-car p {
     line-height: 1.4;
-    font-size: 16px;
+    font-size: 18px;
     color: #000000;
     font-family: 'lato';
     font-family: 'Lato';
@@ -67,6 +68,14 @@ section.career .container .row {
  p.car-con {
      margin-top: -1rem;
 }
+.location {
+	margin-top: 5rem;
+	margin-bottom: 6rem;
+	width: 100%;
+	background-color: #fff;
+	min-height: 580px !important;
+}
+
 .career .col-sm-6.col-lg-6 {
     display: inline-block;
     flex: unset;
@@ -76,11 +85,15 @@ section.career .container .row {
     padding-right: 0;
 }
  img.discuss-IMG {
-	/* width: 70%; */
-	padding-top: 180px;
-	/* margin-left: 150px; */
-	/* margin-right: 0px; */
-	height: auto;
+    width: 70%;
+    /* padding-top: 50px; */
+    margin-top: 150px;
+    display: block;
+    /* width: 450px; */
+
+	margin-left: 150px;
+    /* margin-right: 0px; */
+    height: auto;
 }
  img.mask-IMG {
 }
@@ -270,7 +283,7 @@ section.swipe ul {
 
  .location {
    font-size: 30px;
-    margin-bottom: -6rem;
+    margin-bottom: -11rem;
     margin-top: 5rem;
 }
 .location .container {
@@ -564,6 +577,7 @@ img.downarrow.swiper-button-disabled {
 	    top: 230px;
 z-index: 5;
 width: 75%;
+width: fit-content
 }
 img.discuss-IMG{
 	width: 100%;
@@ -731,6 +745,15 @@ img.downarrow.swiper-button-disabled {
     text-align: center;
     width: 80%;
 }
+
+
+@media(min-width: 992px) {
+    .row > [class*="col"] {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+}
+
 }
  @media (min-width: 991px) {
 
