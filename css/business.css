@@ -366,6 +366,12 @@ ul.case-con li {
     border-radius: 20px;
 
 }
+/* @media (min-width: 992px) {
+.row > [class*="col"] {
+    padding-left: 70px;
+    padding-right: 16px;
+  }
+} */
 
 .swiper-slide:hover .overlay .alter {
     /* background-color:#000; */
@@ -1432,11 +1438,6 @@ p.par-1 {
     margin-left: 0px !important;
 	
 	border-radius: 30px;
-}
-@media (min-width: 992px) {
-	.consumersecrow > [class*="col"] {
-    padding-left: 10px;
-}
 }
 @media (max-width: 991px) {
 }
