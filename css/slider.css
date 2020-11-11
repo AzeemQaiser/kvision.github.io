@@ -1,17 +1,16 @@
 .cid-scOpuhkrIo {
-  padding-top: 0rem;
+  padding-top: 1.2rem;
   padding-bottom: 0rem;
-  background-color: #fafafa;
+  background-color: #ffffff;
 }
 .cid-scOpuhkrIo .carousel {
-  height: 70vh;
+  height: 80vh;
 }
 .cid-scOpuhkrIo .carousel img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 40px;
-  padding-top: 1rem;
+      border-radius: 26px;
 }
 .cid-scOpuhkrIo .carousel-item,
 .cid-scOpuhkrIo .carousel-inner {
@@ -21,9 +20,7 @@
   z-index: 1;
 }
 .cid-scOpuhkrIo .carousel-caption {
-     bottom: 3.5rem;
-    background: #172738;
-    width: 22rem;
+  
 }
 .cid-scOpuhkrIo .mobi-mbri-arrow-next {
   margin-left: 5px;
@@ -162,6 +159,10 @@ a.carousel-control.carousel-control-next:hover{
     color: #1f7ad9;
     text-align: center;
     line-height: 40px;
+}
+.sliderRow > [class*="col"] {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
 }
 }
 @media (max-width: 991px) {
