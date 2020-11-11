@@ -1630,7 +1630,7 @@ a {
 
 .social-row {
 	text-align: center;
-/*	margin-top: 30px;*/
+	/*	margin-top: 30px;*/
 }
 
 .social-row .soc-item {
@@ -2613,23 +2613,23 @@ li.rollingstone {
 		height: 33rem;
 		margin-left: 0 !important;
 		margin-right: 0 !important;
-/*		padding-top: 75px;*/
+		/*		padding-top: 75px;*/
 	}
-	
+
 	.bar-1 .office-location {
 		font-family: "Lato";
 		font-size: 22px;
 		font-weight: 500;
 	}
-	
- 
+
+
 	#office-location-1,
 	#office-location-3 {
 		padding-top: 80px;
-		
+
 	}
 
-	
+
 	.bar-1 .headquarters {
 		font-size: 13px !important;
 		color: #6FE3FF;
@@ -2707,9 +2707,11 @@ li.rollingstone {
 	display: block;
 }
 
+/*
 .mblrow {
 	display: none;
 }
+*/
 
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -2822,6 +2824,211 @@ li.rollingstone {
 
 
 @media (max-width: 768px) {
+
+	/*	about mobile section developed by baqtiyar*/
+	body {
+		/*		background-color: #aab113;*/
+	}
+
+	/*	created a mobile specific class for the image*/
+	.about-us-img-mobile {
+		width: 100%;
+		/*			outline: 3px solid red;*/
+		margin-left: 20px !important;
+		/*had to force the image to be center */
+	}
+
+
+	/*	creating the about us text in iphone X - width 375px*/
+
+	.about-us-info {
+		width: 100%;
+		/*		outline: 3px solid red;*/
+		/*	margin-top: -200px;*/
+		list-style: square;
+		/*	margin-left: 170px;*/
+		margin: 0 !important;
+		margin-top: 50px !important;
+		margin-left: 20px !important;
+		margin-right: 10px !important;
+		margin-bottom: -310px !important;
+	}
+
+	.about-us-info li {
+		margin-bottom: 50px !important;
+		font-family: "Lato-Light";
+		font-size: 22px !important;
+		line-height: 1.2;
+		text-align: left;
+		color: #17416d !important;
+	}
+
+	/*	changing the brand testimonials section*/
+
+	/*media section  scroll only */
+
+	/* change the media title*/
+
+	.media-title-mobile p {
+		align-content: center;
+		text-align: center !important;
+		font-size: 46px !important;
+		font-weight: 100 !important;
+		padding-bottom: 6px !important;
+		color: #17416D !important;
+		opacity: 1 !important;
+		font-family: "nolanlight" !important;
+		letter-spacing: -2.8px !important;
+		margin-top: -40px !important;
+	}
+
+	/*	setup the media container */
+
+	.mediasec {
+		/*		outline: 3px solid green;*/
+		width: 80%;
+		height: 20.8rem !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
+		/*		background-color: chocolate*/
+	}
+
+	.mediasec .row {
+		/*		outline: 3px solid red;*/
+	}
+
+	.horizontalLine {
+		display: none !important;
+	}
+
+	.swiper-container {
+		width: 80% !important;
+		height: 20rem !important;
+		/*	outline: 3px solid orange;*/
+	}
+
+
+
+	.mediasec .swiper-slide {
+		text-align: center;
+		font-size: 18px;
+		background: #fff;
+		/*	outline: 3px solid red;*/
+		width: 70% !important;
+		height: 22rem !important;
+
+	}
+
+	.swiper-slide p {
+		margin-top: 20px !important;
+		height: 22rem;
+		font-size: 14px;
+		color: #17416d;
+		font-family: lato;
+		text-align: center;
+		width: 75%;
+		margin: 0 auto;
+	}
+
+	/*changin the big block quote*/
+
+	.bgcnt {
+		background: #414141;
+		/* padding-left: 99px !important; */
+		/* padding-right: 89px !important; */
+		color: #d6e7f4;
+		padding-top: 20px;
+		padding-bottom: 22px;
+		text-align: center;
+		border-radius: 35px;
+		width: 80%;
+		/*		height: 20rem;*/
+	}
+
+/*	styling the paragraph in the blockquote*/
+	.bgcnt p {
+		font-size: 26px;
+		font-family: "nolanlight";
+		font-weight: 100;
+		color: #ffffff;
+		padding: 0 15px 0 15px;
+		width: 80%;
+		text-align: center;
+		margin: 0 auto;
+		line-height: 1.3;
+	}
+	
+/*	styling the team section*/
+	.team-member-box {
+	position: relative;
+		margin: 25px 0;  /*added some margin to make the social icons appear*/
+}
+
+.team-member-box .social-row {
+	position: absolute;
+	left: 50px;
+	bottom: -32px !important;
+	padding: 0;
+}
+	
+/*	styling the locations section*/
+	
+	.location-img-container {
+		display: none !important;
+		border-radius: 0;
+	}
+
+	.location {
+	margin-top: 5rem;
+	margin-bottom: 6rem;
+	width: 100%;
+	background-color: #f4faff;
+	min-height: 580px !important;
+}
+
+.location-header {
+	padding-bottom: 2rem;
+	font-size: 56px;
+	font-family: 'Nolan';
+}
+
+	.add-1 {
+		font-size: 14px;
+		font-family: arial;
+		clor: #17416d;
+	}
+
+/*
+.location-img-container {
+	width: 63%;
+	margin: 50px auto;
+	border-radius: 35px;
+}
+*/
+
+/*
+.location-img-container img {
+	border-radius: 25px;
+}
+*/
+
+.location .container {
+	width: 100%;
+	height: 26rem;
+	text-align: center;
+}
+	
+	.bar-1:hover {
+	background: #17416d;
+	border-radius: 0px !important;
+	color: #ffff;
+	-ms-transform: scale(1);
+	/* IE 9 */
+	-webkit-transform: scale(1);
+	/* Safari 3-8 */
+	transform: scale(1)
+}
+ 
 	.display-1 {
 		font-size: 3.22rem;
 		font-size: calc(2.26rem + (4.6 - 2.26) * ((100vw - 20rem) / (48 - 20)));
@@ -2892,6 +3099,7 @@ li.rollingstone {
 		padding-top: 2rem;
 	}
 
+/*
 	.webrow {
 		display: none;
 	}
@@ -2899,12 +3107,26 @@ li.rollingstone {
 	.mblrow {
 		display: block;
 	}
+	
+*/
+	.team1 .container {
+		display: flex !important;
+		flex-direction: row !important;
+		width: 400% !important;
+		height: 30rem;
+		overflow-y: hidden !important;
+		padding-left: 0;
+	}
+	
+	.team-member-box {
+		height: 60rem;
+		width: 25%;
+	}
 }
 
 
 .team-member-box {
 	position: relative;
-	outline: 3px solid red;
 }
 
 .team-member-box .social-row {
@@ -2912,12 +3134,15 @@ li.rollingstone {
 	left: 50px;
 	bottom: -18px;
 	padding: 0;
-	outline: 3px solid blue;
 }
+
 @media (max-width: 767px) {
 	.cid-sckHfhtRnm .row {
 		text-align: center;
 	}
+
+
+
 
 	.cid-sckHfhtRnm .social-row {
 		justify-content: center;
@@ -3257,26 +3482,30 @@ li.rollingstone {
 .swiper-container {
 	width: 100%;
 	height: 100%;
+	/*	outline: 3px solid orange;*/
 }
 
 .swiper-slide {
 	text-align: center;
 	font-size: 18px;
 	background: #fff;
+	/*		outline: 3px solid red;*/
 
-	/* Center slide text vertically */
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	-webkit-justify-content: center;
-	justify-content: center;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	-webkit-align-items: center;
-	align-items: center;
+}
+
+/* Center slide text vertically */
+display: -webkit-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+display: flex;
+-webkit-box-pack: center;
+-ms-flex-pack: center;
+-webkit-justify-content: center;
+justify-content: center;
+-webkit-box-align: center;
+-ms-flex-align: center;
+-webkit-align-items: center;
+align-items: center;
 }
 
 .swiper-slide2 {
@@ -3326,7 +3555,7 @@ section.hdrsec2 {
 
 .hdrsec1 {
 	/*  margin-top: 3em;*/
-	width:80% !important;
+	width: 80% !important;
 	margin: 0 auto;
 	min-height: 2.2rem;
 }
@@ -3346,13 +3575,13 @@ section.hdrsec2 {
 	letter-spacing: 0px;
 	margin: 0 auto;
 	min-height: inherit;
-		background-color: #f4faff;
+	background-color: #f4faff;
 }
 
-/*about us created by baqtiyar*/
+/*about us text and image section created by baqtiyar*/
 
 #about-us-section {
-	margin-bottom: -300px;
+	margin-bottom: -200px;
 }
 
 .about-us-img {
@@ -3366,6 +3595,7 @@ section.hdrsec2 {
 }
 
 .about-us-info {
+	width: 100%;
 	margin-top: -200px;
 	list-style: square;
 	margin-left: 170px;
@@ -3377,7 +3607,7 @@ section.hdrsec2 {
 	font-size: 20px;
 	line-height: 1.2;
 	text-align: left;
-	color:#000000;
+	color: #000000;
 }
 
 .titlewrapper h2 {
@@ -3495,6 +3725,7 @@ section.hdrsec2 {
 	margin: 50px auto;
 	border-radius: 35px;
 }
+
 .location-img-container img {
 	border-radius: 25px;
 }
