@@ -21,26 +21,28 @@ section.career .container .row {
 }
  .dotGrid.career {
     background-size: 22px 22px;
-    background-image: radial-gradient(#90B2CB 1.7px, transparent 0);
+    /* background-color: #f4faff; */
+    background-color: #bce1ff;
     width: 100%;
-	height: 19rem;
+	height: 8rem;
 	position: absolute;
-	opacity: 13%;
+	/* opacity: 13%; */
 	top: 18px;
 	margin-left: 0;
-	left: -36%;
+	/* left: -36%; */
 }
 
 .buttonsub {
 	background: #17416D;
-	font-size: 12px;
-	font-weight: 100;
+    font-size: 12px;
+    /* font-family: 'Lato'; */
+	/* font-weight: 100; */
 	color: white;
-	font-weight: 700;
-	width: 200px;
-    height: 29px;
+	/* font-weight: 700; */
+	width: 220px;
+    height: 39px;
     border: 0px;
-    border-radius: 5px;
+    /* border-radius: 5px; */
 }
 
  .bg-car {
@@ -50,7 +52,7 @@ section.career .container .row {
     padding-right: 25px;
     padding-top: 1.5rem;
     padding-bottom: 0.5rem;
-    margin-right: 20px;
+    margin-right: 0px;
 }
  .bg-car p {
     line-height: 1.4;
@@ -74,9 +76,10 @@ section.career .container .row {
     padding-right: 0;
 }
  img.discuss-IMG {
-	width: 90%;
-	padding-top: 50px;
-	margin-left: 0;
+	/* width: 70%; */
+	padding-top: 180px;
+	/* margin-left: 150px; */
+	/* margin-right: 0px; */
 	height: auto;
 }
  img.mask-IMG {
@@ -86,24 +89,23 @@ section.career-1 {
     margin-top: 2rem;
 }
 .hed-1 h2 {
-    margin-left: 0;
-    font-size: 42px;
-    padding-bottom: 14px;
+    font-size: 36px;
     font-weight: 500;
-    width: 100%;
-    margin: 25px auto 0;
+    color: #17416D;
+	font-family: "nolanlight";
+	margin-top: 75px;
+    margin-bottom: 25px;
     text-align: center;
-	    letter-spacing: -3.2px;
 }
 .hed-1 p {
     text-align: center;
     color: #244E89;
     padding: 0;
-    font-weight: 500;
-    font-size: 12px;
+    font-weight: 100;
+    font-size: 16px;
     line-height: 1.3;
     letter-spacing: -0.16px;
-    font-family: Arial;
+    font-family: 'Lato';
     width: 58%;
     margin: 0 auto;
 }
@@ -121,10 +123,10 @@ section.career-2 {
     margin-top: 50px;
     margin-bottom: 80px;
     background-color: #D6E7F4;
-    height: 400px;
+    height: 450px;
 }
 .career-2 .container {
-    padding-left: 88px;
+    /* padding-left: 88px; */
     padding-right: 0;
     position: relative;
 
@@ -139,10 +141,14 @@ img.corner-IMG {
     z-index: 0;
 }
 .career-2 .container .div-IMG {
-    width: 100%;
+    width: 80%;
     z-index: 1;
     position: relative;
     border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 .career-2 .container p.div-txt {
     margin: 0 auto;
@@ -155,31 +161,42 @@ img.corner-IMG {
     max-width: 100%;
     padding: 0;
 }
+
+.test-head h2 {
+	text-align: center;
+	font-size: 36px;
+    font-weight: 500;
+    color: #17416D;
+	font-family: "nolanlight";
+	margin-top: 75px;
+	margin-bottom: 25px;
+
+}
+
 section.career-2 .center {
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
-    width: 390px;
+    width: 500px;
     text-align: center;
 }
 section.career-2 .center p {
-    width: 100%;
-    /* background-color: #17416d; */
-    font-size: 26px;
-    text-align: center;
-    color: black;
-    padding: 16px 10px 16px;
-	margin-bottom: 0;
+    font-size: 36px;
+    font-weight: 500;
+    color: #17416D;
+	font-family: "nolanlight";
+	padding-top: 70px;
+	margin-bottom: 25px;
 }
 section.diversitySection {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
  p.in-txt {
-       padding-top: 28px;
-    font-size: 18px;
+    padding-top: 28px;
+    font-size: 22px;
     color: #535050;
-    /* font-weight: 300; */
+    font-weight: 500;
     padding-bottom: 10px;
     letter-spacing: -1.01px;
     font-family: 'Lato';
@@ -187,9 +204,9 @@ section.diversitySection {
     padding-right: 50px;
  }
  p.out-txt {
-        font-size: 12px;
+    font-size: 14px;
     color: #244E89;
-    font-weight: 500;
+    font-weight: 100;
     line-height: 1.5;
     font-family: 'Lato';
     letter-spacing: -0.16px;
@@ -207,7 +224,7 @@ p.div-txt {
     color: black;
     margin-left: 8rem;
     font-family: 'Lato';
-    font-weight: initial;
+    font-weight: 100;
     letter-spacing: -0.8px;
     line-height: 1.3;
 }
@@ -230,22 +247,25 @@ section.swipe ul {
     list-style: none;
 }
  .loc h2 {
-    text-align: center;
-    font-size: 42px;
-    margin-bottom: 26px;
+    font-size: 36px;
     font-weight: 500;
+    color: #17416D;
+	font-family: "nolanlight";
+	margin-top: 75px;
+    margin-bottom: 25px;
+    text-align: center;
 }
  .loc p {
     text-align: center;
-    font-size: 12px;
     color: #244E89;
-    font-weight: 500;
+    padding: 0;
+    font-weight: 100;
+    font-size: 16px;
     line-height: 1.3;
-    font-family: Arial;
-    font-size: 12px;
-    color: #244E89;
-	width: 68%;
-margin: 0 auto;
+    letter-spacing: -0.16px;
+    font-family: 'Lato';
+    width: 58%;
+    margin: 0 auto;
 }
 
  .location {
@@ -395,7 +415,7 @@ button.bt-apply {
     width: 100px;
     height: 32px;
 	margin-top: 40px;
-border: 0;
+    border: 0;
 }
 p.head-1 {
         font-size: 8px;
@@ -550,8 +570,10 @@ img.discuss-IMG{
 }
 .hed-1 p{
 	font-size:14px;
-	width:70% !important;
-	padding: 15px 0 0 !important;
+	width:80% !important;
+    padding: 15px 0 0 !important;
+    font-family: 'Lato';
+    font-weight: 100;
 }
 section.career-1{
 	margin-bottom: 0;

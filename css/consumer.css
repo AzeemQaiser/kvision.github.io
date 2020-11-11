@@ -351,6 +351,17 @@ ul.cases4 {
 
 }
 
+.test-head h2 {
+	text-align: center;
+	font-size: 36px;
+    font-weight: 500;
+    color: #17416D;
+	font-family: "nolanlight";
+	margin-top: 75px;
+	margin-bottom: 25px;
+
+}
+
 ul.case-con {
     list-style: none;
     width: 100%;
@@ -538,7 +549,7 @@ button.click {
 	padding-bottom: -0.3rem;
 	margin-left: 4.4rem;
 	color: #000000;
-	font-size: 56px;
+	font-size: 36px;
 	/* margin-top: 2px; */
 	/* line-height: 0.5; */
 }
