@@ -220,7 +220,7 @@ p.div-txt {
     cursor: pointer;
 }
  section.swipe {
-  background-color: #F4FAFF;
+  /* background-color: #F4FAFF; */
     /* height: 35rem; */
     /* margin-bottom: 51px; */
     padding-top: 3rem;
@@ -320,7 +320,7 @@ img.uparrow {
     margin-top: -0.5rem;
 }
 img.downarrow {
-       /* transform: rotate(90deg); */
+    /* transform: rotate(180deg); */
     transform-origin: left bottom;
     width: 40px;
     /* padding-bottom: 0px; */
