@@ -28,11 +28,16 @@ section.solution.target {
 }
 
 img.scrip-IMG {
-	    width: 185px;
-    margin-top: 6.5rem;
+    /* width: 185px; */
+    margin-top: 8.5rem;
     position: absolute;
     height: 420.95px;
-    left: -140px;
+    left: -100px;
+    transform: rotate(270deg);
+    /* position: absolute; */
+    height: 200px;
+    width: 500px;
+    left: -250px;
 }
 
 .con-head {
@@ -807,8 +812,8 @@ section.usecasesec {
     /* background-color: #244E89; */
     /* background-color: #cccccc; */
     background-image: url("/images/Business/Mask_Group_15@2x.png");
-    height: 300px;
-    margin-bottom: 300px;
+    height: 500px;
+    margin-bottom: 50px;
     background-position: 0px 250px;
     /* background-repeat: no-repeat; */
     /* background-size: cover; */
@@ -922,6 +927,16 @@ img.sliderimg {
 .demos1-img, .demos3-img {
     padding-bottom: 30px;
 }*/
+
+
+@media (min-width: 992px) {
+    .row > [class*="col"] {
+      padding-left: 0px;
+      padding-right: 16px;
+    }
+  }
+
+
 @media (min-width: 768px) {
   
 }
@@ -1335,8 +1350,18 @@ img.scrip-IMG {
     left: 324px;
     z-index: 1;
     right: 0px;
-    /* float: right; */
+                /* float: right; */
 }
+
+/* img.scrip-IMG {
+    margin-top: 6.5rem;
+    transform: rotate(270deg);
+    position: absolute;
+    height: 200px;
+    width: 500px;
+    left: -250px;
+        
+} */
 .bg-setction-8 .section-8-heading, .bg-setction-8 .section-8-form {
     margin-left: 0;
     margin-right: 0;
