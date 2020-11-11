@@ -46,7 +46,7 @@ img.scrip-IMG {
 }
 
 .con-head h2 {
-       font-size: 46px;
+       font-size: 56px;
     font-weight: 400;
     letter-spacing: -3.2px;
     
@@ -56,7 +56,7 @@ img.scrip-IMG {
 }
 .consumer-con p {
    line-height: 1.4;
-    font-size: 16px;
+    font-size: 18px !important ;
     letter-spacing: -0.16px;
     font-family: 'Lato';
     font-weight: 300;
@@ -316,12 +316,16 @@ ul.cases4 {
 }
 .case-head h2 {
 
+   
+
+
 	    font-size: 36px;
     font-weight: 500;
     color: #17416D;
 	font-family: "nolanlight";
 	margin-top: 75px;
 	margin-bottom: 25px;
+
 
 }
 
@@ -332,12 +336,16 @@ padding-left: 66px;
 }
 img.dog-IMG {
     width: 100%; 
+
+  
+
     height: 23rem;
     border-radius: 10px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     margin-left: 10px;
     margin-right: 10px;
+
 }
 
 
@@ -347,6 +355,8 @@ ul.case-con li {
 	display: inline-block;
 	margin-left: -22px;
 }
+
+
 .swiper-slide:hover .overlay {
     display:block;
     background-color:#dcedf8;
@@ -359,11 +369,18 @@ ul.case-con li {
 	font-family: 'Nolan';
     text-align: center;
 
+    
+
+
     background-color: #2e5074;
+
     opacity: 80%;
     color: white;
     position: absolute;
     /* width: 28%; */
+
+  
+
     height: 12.5rem;
     width: 12.5rem;
     font-size: 23px;
@@ -371,6 +388,7 @@ ul.case-con li {
     top: 9rem;
     margin-left: 30px;
     margin-top: -60px;
+
     padding-left: 1rem;
     padding-right: 1rem;
     border-radius: 50%;
@@ -379,8 +397,11 @@ ul.case-con li {
     background-color: black;
 }
 h1.hed-sol.frstcontent {
+
+
     /* padding-top: 19px; */
     /* width: 50%; */
+
 }
 .overlay {
     width: 100%;
@@ -482,12 +503,15 @@ margin-right: auto;
 padding-left: 0;
 }
 .partner-highlighttxt {
-	    font-size: 36px;
+
+    
+    font-size: 36px;
     font-weight: 500;
     color: #17416D;
 	font-family: "nolanlight";
 	margin-top: 75px;
 	margin-bottom: 25px;
+
 
 }
 .partner-highlighttxt p {
@@ -748,8 +772,8 @@ button.click-1 {
     margin-left: 41px;
 }
 .consumersecrow img.con-IMG {
-    padding-top: 2rem;
-    width: 365px;
+    padding-top: 3rem;
+    width: 385px;
     height: auto;
     padding-left: 2rem;
 }
@@ -1176,6 +1200,10 @@ ul.case-con li {
     background-color:#dcedf8;
     opacity:0.75;
 }
+	
+	.business-use-cases-rounded-corners {
+		border-radius: 30px;
+	}
 .swiper-slide .in-con {
     display:none;
 }
@@ -1400,8 +1428,10 @@ p.par-1 {
 }
 }
 .swiper-slide {
-    margin-right: 0px !important;
+    margin-right: 30px !important;
     margin-left: 0px !important;
+	
+	border-radius: 30px;
 }
 @media (min-width: 992px) {
 	.consumersecrow > [class*="col"] {
