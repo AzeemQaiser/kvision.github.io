@@ -4,13 +4,13 @@
   background-color: #ffffff;
 }
 .cid-scOpuhkrIo .carousel {
-  height: 80vh;
+  height: 50vh;
 }
 .cid-scOpuhkrIo .carousel img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-      border-radius: 26px;
+  border-radius: 26px;
 }
 .cid-scOpuhkrIo .carousel-item,
 .cid-scOpuhkrIo .carousel-inner {
