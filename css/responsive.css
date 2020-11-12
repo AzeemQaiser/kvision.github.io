@@ -15,7 +15,7 @@ font-size: 1.5em;}	.benefitContent {
     padding-bottom: 1rem;
 }
 .countCnt-p {
-    font-size: 10px;
+    font-size: 18px;
     padding-top: 0;
 }
 .benefitsectionbg {
@@ -30,8 +30,7 @@ padding-left: 0;}
 section.sidemenu-mainrow {
     display: none;
 }
-.head {
-width: 70%;}
+
 .cid-scOpuhkrIo .carousel-caption {
     width: 19rem;bottom: 9.5rem;
 }
@@ -104,7 +103,7 @@ margin-top: 1em;}
     padding-top: 1rem;
 }
 section#section5 {
-    padding-bottom: 4rem;
+    padding-bottom: 0rem;
     padding-top: 4rem;
 }
 .container.footermar {
@@ -118,9 +117,98 @@ section#section5 {
     padding-left: 1em;
 }
 section.benefit-section {
-    padding-top: 2rem;
+       padding-top: 0rem;
 }
 section.business {
 	padding-bottom: 0px;
 }
+}
+@media (max-width: 768px){
+	.benefit-title {
+    color: #147AE3;
+    font-size: 36px;
+     padding-left: 0rem;
+    padding-top: 2rem;
+    font-family: 'Lato';
+    font-weight: 300 !important;
+    text-align: center;
+ }
+ .benefit-dtls img {
+    width: 40%;
+}
+.border{
+	display: none;
+}
+.benfit-con1 {
+    padding-left: 0px;
+    padding-top: 11px;
+    margin-left: -52px;
+}
+.benefit-dtls li {
+    padding-bottom: 30px;
+}
+.benefit-dtls h2 {
+	    font-weight: 900;
+}
+.benefit-Bg{
+	    position: relative;
+}
+.benefit-icon2{
+	    margin-top: 0px;	
+}
+.benefit-icon1{
+	  margin-top: 0px;	
+}
+.cid-scOpuhkrIo .carousel{
+	       height:100%;
+} 	
+section.benefit-section {
+    padding-bottom: 6rem;
+}
+.head h2 {
+    text-align: center;
+    padding-bottom: 40px;
+    letter-spacing: -2.8px;
+    color: rgba(23, 65, 109, 1);
+   
+    font: normal normal 100 41px/26px Nolan;
+    margin-top: -5rem;
+	    margin-left: 5rem;
+}
+.head2 h2 {
+    text-align: center;
+    padding-bottom: 40px;
+    letter-spacing: -2.8px;
+    color: rgba(23, 65, 109, 1);
+    font: normal normal 100 41px/26px Nolan;
+    margin-top: 4rem;
+    margin-right: 0rem;
+}
+img.people-IMG {
+    width: 100%;
+    border-radius: 50px;
+}
+p.inside-1 {
+    margin-top: 1rem;
+     padding-right: 0rem; 
+    margin-bottom: 30px;
+}
+p.outside-1 {
+     margin-right: 0rem; 
+}
+button.click{
+	    margin-left: 0rem;
+}
+.more{
+	     margin-left: 0rem;
+}
+.backdiv2{
+	    display: none;	
+}
+.word {
+  
+    top: 88px;
+    padding-top: 166px;
+}
+
 }
