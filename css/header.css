@@ -469,19 +469,20 @@ body {
 li.nav-item a{
 font-family: 'Lato';
     font-size: 14px;
-    font-weight: 600!important;
+    font-weight: 600;
     line-height: 2.75;
     color: #17416D;
     text-transform: uppercase;
 }
 
-.submenu-item img {
-    width: 20px;
+.menuitem-align img {
+    width: 9px;
     height: auto;
     margin-left: 9px;
 }
-.submenu-item {
+.menuitem-align {
     display: inline-flex;
+	padding-bottom: 20px;
 }
 .dropdown {
   position: relative;
@@ -489,28 +490,29 @@ font-family: 'Lato';
 }
 
 .dropdown-content {
-	    display: none;
-position: absolute;
-    background-color: #F5FAFF;
-    min-width: 154px;
-    margin-top: 2px;
-    margin-left: -8px;
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    width: 143%;
+    margin-top: -22px;
+    margin-left: -35px;
+	    padding-top: 2.1rem;
     /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
     z-index: 1;
-    border: 7px solid #728B9F;
+    /* border: 7px solid #728B9F; */
+    border-radius: 31px;
+	    padding-left: 20px;
+
 }
 
 .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
-.dropdown-content .submenu-item:hover {background-color: #ffff;}
 
 .dropdown:hover .dropdown-content {display: block;}
-
+/*
 .dropdown-content:before {
     content: '';
     position: absolute;
@@ -518,22 +520,16 @@ position: absolute;
     margin-top: -17px;
     width: 0;
     height: 0;
-    /* border-style: solid; */
+
     border-left: 7px solid transparent;
     border-right: 7px solid transparent;
     border-bottom: 10px solid #718BA0;
-}
-.submenu-item.child1 {
-    padding-bottom: 4px;
-    padding-right: 10px;
-}
+}*/
+
 .dropdown-content:after{
 	content:none;
 }
-.submenu-item.childmenuborder {
-    border-bottom: 1.5px solid #728B9F;
-    padding-bottom: 5px;
-}
+
   .navbar-nav li {
     background: #ffffff;
     margin-left: 1px;
@@ -643,15 +639,108 @@ position: absolute;
       text-align: center;
 }
 .dropdown-content {
-    /* margin-left: 41px; */
-    /* font-size: 15px; */
-    /* font-family: sans-serif; */
-    text-transform: uppercase;
+  display:none;
 }
-.dropdown-content img {
-    display: none;
+
+
 }
-a#solution {
-    display: none;
+section#mainsec {
+    height: 80%;
+    background: #000;
 }
+.subCatagory{
+	    display: none;
+    position: relative;
+	    padding-inline-start: 0px;
+}
+.dropdown-content .catagory:hover > .subCatagory{
+    display: block;
+}
+.subCatagory2{
+	 display: none;
+    position: relative;
+	    padding-inline-start: 0px;
+}
+.dropdown-content .catagory .subCatagory li:hover {background-color: #ffff;}
+.dropdown-content .catagory .subCatagory li:hover > .subCatagory2{
+    display: block;
+}
+.dropdown ul {
+    list-style: none;
+}
+.dropdown-content li{
+	 position: relative;
+}
+ul.dropdown-content a {
+    text-transform: none !important;
+}
+a.catagory-text {
+    text-align: left;
+    font-family: 'Lato' !important;
+    font-size: 16px!important;
+    /* font-weight: 100 !important; */
+    color: #377CC4 !important;
+    opacity: 1;
+}
+a.catagory-text {
+    text-align: left;
+    font-family: 'Lato' !important;
+    font-size: 16px!important;
+    font-weight: 400!important;
+    color: #377CC4 !important;
+    opacity: 1;
+}
+.nav-link {
+    font-weight: 600!important;
+}
+li.catagory a {
+    line-height: 1;
+    padding-left: 9px;
+    font-size: 15px;
+    letter-spacing: -0.24px;
+    color: #377CC4;
+    opacity: 1;
+    font-weight: 500;
+}
+ul.subCatagory img {
+    width: 19%;
+    margin-left: 0px;
+}
+li.catagory {
+    padding-bottom: 10px;
+}
+a.subcat-title {
+   font-size: 12px !important;
+    font-weight: 500 !important;
+    color: #17416D !important;
+}
+a.subcat-desc {
+   font-weight: 400!important;
+    color: #9F9F9F !important;
+    font-size: 10px !important;
+}
+ul.subCatagory a {
+    line-height: 1;
+    padding-bottom: 5px !important;
+}
+ul.subCatagory2 img {
+    width: 13%;
+}
+ul.subCatagory2 .menuitem-align {
+    padding-left: 4px;
+}
+a.subcatagory2-title {
+    font-size: 11px !important;
+    padding-left: 16px !important;
+    color: #000000 !important;
+    font-weight: 300!important;
+}
+.menuitem-align.catrow {
+    padding-left: 7px;
+}
+ul.dropdown-content li {
+    background: none !important;
+}
+.lastchild{
+	padding-bottom: 5rem !important;
 }
