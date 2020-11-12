@@ -21,7 +21,7 @@
 	    padding-top: 20px;
      
 }
-			.bg-setction-3{
+.bg-setction-3{
      height: auto;
     position: initial;
 	    margin-top: -150px;
@@ -29,14 +29,29 @@
 		}
 	
 
-			.bg-setction-6{
+.bg-setction-7{
    height: auto;
     width: 100%;
-	    padding-top: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #D6E7F4;
    
 }
-		 .bg-setction-8 {
-     height: auto;
+
+.bg-setction-7-content{
+    text-align: center;
+    font-size: 23px;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    color: #17416D;
+    font-family: 'Nolan';
+    /* margin-left: -64px; */
+    /* margin-top: 16px; */
+    /* line-height: 1.2s */
+}
+
+.bg-setction-8 {
+    height: auto;
     width: 100%;
     background-color: #EEEEEE;
     margin-top: 0;
@@ -54,19 +69,7 @@
 		.imagesider {
     margin-top: 0;
 }
-		.dotGrid {
-     background-size: 41px 48px;
-    background-image: radial-gradient(#D6E7F4 3.8px, transparent 0);
-width: 61%;
-    height: 210px;
-    right: -6.5%;
-	z-index: 0;
-	top: 0;
-	margin-top: 0;
-	margin-left: 0;
-    position: absolute;
-    opacity: 90%;
-		}
+
 .bg-setction-3 .col-lg-9 {
     padding-top: 15px;
 }		
@@ -110,10 +113,11 @@ width: 61%;
     margin-left: 54px;
 }
 	.section2-image{
-	    height: 365px;
-    width: 557px;
+	    /* height: 365px; */
+    /* width: 100%; */
+    width: 320px;
     position: absolute;
-    margin-top: -8rem;
+    /* margin-top: -8rem; */
 		 
 	}
 	.mb-3{
@@ -214,7 +218,7 @@ text-align: center;
 }
 
 .section-4-benHead {
-    margin-top: 205px;
+    /* margin-top: 205px; */
     margin-left: 0;
 }
 		.section3-li{
@@ -403,7 +407,7 @@ margin-top: 1em;
     margin-top: -50px;
     border-style: solid;
 	    padding-bottom: 30px;
-    border-color: #DBE6EE;
+    border-color: transparent;
 		}
 		.inconborder {
    margin-top: 4em;
@@ -428,6 +432,7 @@ margin-top: 1em;
     width: 15em;
     height: 9em;
     margin-top: 10%;
+    border-radius: 10px;
 }
 		.inconborder1 {
     margin-top: 1em;
@@ -450,6 +455,7 @@ margin-top: 1em;
     height: 10em;
     margin-top: 8%;
     margin-left: 29px;
+    border-radius: 10px;
 }
 		 .buttonsub{
   color:#162738;
