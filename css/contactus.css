@@ -1,18 +1,27 @@
 .floating-form {
-    width:100%;
+    width:90%;
+	margin-left: .1rem;
   }
   
   /****  floating-Lable style start ****/
   .floating-label { 
     position:relative; 
-    margin-bottom:3rem; 
+    margin-bottom:3rem;
+	  margin-top: 1rem;
   }
+
+/*made by baqtiyar - added a row class with id to make the input elements display flex and then changed the width baqtiyar*/
+#top-input-row .floating-label {
+	width: 33.33%;
+}
+
   .floating-input , .floating-select {
       font-size: 15px;
       padding: 4px 4px;
       display: block;
       width: 90%;
-      height: 30px;
+/*	  chagned height from 30px to 40px to accomodate enlarge label font baqtiyar*/
+      height:40px;
       background-color: transparent;
       border: none;
       align-content: right;
@@ -20,15 +29,21 @@
       border-bottom: 2px solid #17416D;
   }
   .floating-label label::before {
-       content: "*";
+/*       content: "*";  remvoed asterisks baqtiyar*/
       padding-right: 10px;
       position: absolute;
       margin-left: -14px;
       margin-top: 4px;
   }
+
+/*change made by baqtiyar - made the text area 96% instead of 90%*/
+textarea.floating-input {
+	width: 100%;
+/*	margin-left: -0.00000000000001px;*/
+}
   .floating-input:focus , .floating-select:focus {
        outline:none;
-       border-bottom:2px solid #17416D; 
+       border-bottom:2px solid #17416d;
   }
   .required:before { content:" *"; }
   label {
@@ -70,7 +85,7 @@
   }
   
   .floating-textarea {
-     min-height: 70px ;
+     min-height: 2px ;
      max-height: 260px; 
      overflow:hidden;
     overflow-x: hidden; 
@@ -78,7 +93,7 @@
   }
   .floating-textarea:focus ~ label, .floating-textarea:not(:placeholder-shown) ~ label {
     top:-30px !important;
-    height:50px;
+    height:10px;
     font-size:14px;
     color:#17416D;
   }
@@ -132,29 +147,44 @@
   
   .contactsec-form {
       
-      background:rgba(214, 231, 244, .3);
+/*      background:rgba(214, 231, 244, .3); change made by baqtiyar to white background from colored background*/
       padding-top: 2.5rem;
       padding-left: 3rem;
       padding-bottom: 2.5rem;
       padding-right: 3rem;
+/*	  added margins to position properly closer to the page edge.*/
+	  margin-left:-20rem;
+	  margin-top: 3rem;
   }
   .contactsec-form h2 {
-      font-size: 32px;
-      font-weight: 600;
-      color: #17416D;
+/*	  changed font size from 32 to 64*/
+      font-size: 64px; 
+/*	  reducing font weight to 300 from 600*/
+      font-weight: 300;
+      color: #262626;
   }
   .contactsec-formhead {
       margin-bottom: 2.5rem;
-      font-family:'nolanthin';
+/*	  changed font family from nolanthin to nolan*/
+      font-family:'nolan';
       margin-left:1rem;
   }
+
+.contactsec-formhead p {
+	font-family: "lato-Light";
+	letter-spacing: -1.09px;
+	font-size: 26px;
+	color: #000000;
+}
   input.tbtn {
-      background: #17416D;
-      font-size: 11px;
+/*	  changed background color, height and width to make more space and the line height and height are equal to make the text complete center baqtiyar*/
+      background: #17416d;
+      font-size: 14px;
       font-weight: 700;
-      color: #ffffff;
-      width: 103px;
-      height: 33px;
+      color: #d6e7f4;
+      width: 123px;
+      height:43px;
+	  line-height: 43px;
       border-radius:6px;
       border:0px;
       margin-left: 1.5rem;
@@ -174,21 +204,38 @@
       line-height: 0.2;
       font-weight: 300;
   }
-  
+
+
   p.contactsec-brntitle {
     font-family:'Lato';
-    color: #17416D;
-    font-weight: bold;
-    font-size: 16px;
+    color: #172738;
+    font-weight: bolder;
+    font-size: 24px !important;
   }
-  
+
+ label {
+	font-size: 26px;
+	margin-bottom: -12em;
+}
   .contactsec-num {
+	 margin-top: 45px;
       padding-bottom: 1px;
   }
   
   .contactsec-addr {
      padding-bottom: .2rem;
     }
+
+.contact-text {
+	color: #172738;
+	font-family: "Lato";
+	letter-spacing: -1.01px;
+	font-size: 24px;
+	line-height: 0.9;
+	margin-bottom: 0;
+	font-weight: 100;
+}
+
 
 
   .addrCol hr {
@@ -214,12 +261,15 @@
       margin-left: 36rem;
   }
   .txtarea-lable{
-          top: 40px ;
+          top: 6px ;
   }
 
   .some-page-wrapper {
     margin: 15px;
-    background-color: red;
+	  width: 16%;
+	  padding-top: 45px;
+	  margin-right: 30px;
+	  margin-left: 30px;
   }
   .row {
     display: flex;
@@ -236,6 +286,63 @@
   }
   
   
+/*sryles to the lcoation made by baqtiyar*/
+#locations-row {
+	margin-left: -11rem;
+	margin-bottom: 150px;
+	width: 230%;
+	padding: 0;
+	min-height: 17rem;
+/*	outline: 3px solid red;*/
+}
+
+.locations-img-container {
+	margin: 0;
+	text-align: center;
+	position: relative;
+	margin-right: 25px;
+	
+}
+.locations-img {
+	width: 100%;
+	height: auto;
+	border-radius: 30px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.locations-title-container {
+	margin-left: -12rem;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+.locations-title {
+	font-size: 56px;
+	color: #17416d;
+	font-family: nolanlight;
+	letter-spacing: -2.8px;
+}
+
+.hide-location-thumbnail {
+	display: none;
+}
+
+.location-mask {
+	position: absolute;
+	top: 57%;
+	transform: rotate(90deg);
+	left: -500px;
+	max-height: 400px;
+}
+
+.mandatory-text {
+	font-family: Arial;
+	font-size: 16px;
+	color: #414141;
+	text-align: center;
+}
   /*STYLE FOR MORE THAN 992 PX WIDTH*/
 
   @media (min-width: 992px){
@@ -294,6 +401,7 @@
   p.contactsec-addr {
       padding-top: -0.2rem;
     padding-bottom: 0.2rem;
+	 
    }
   
   .contactsec-num {
