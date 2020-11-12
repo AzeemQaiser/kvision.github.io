@@ -341,7 +341,7 @@ textarea.floating-input {
 	font-family: Arial;
 	font-size: 16px;
 	color: #414141;
-	text-align: center;
+    padding-top:10px;
 }
   /*STYLE FOR MORE THAN 992 PX WIDTH*/
 

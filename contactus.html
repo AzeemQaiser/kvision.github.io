@@ -42,35 +42,36 @@
 							<h2>Get In Touch</h2>
 							<p>Leave us your contact details and we will get in touch shortly!</p>
 						</div>
-						<form action="mailto:baqtiyar@elements313.com" method="GET">
+						<form method="POST" name="Contact_Form" action="formhandler.php">
 							<div class="floating-form">
 								<div id="top-input-row" class="row">
 									<div class="floating-label">
-										<input class="floating-input" type="text" placeholder=" ">
+										<input  class="floating-input" name="name" type="text" placeholder=" ">
 										<span class="highlight"></span>
 										<label>Full Name</label>
 									</div>
 									<div class="floating-label">
-										<input class="floating-input" type="text" placeholder=" ">
+										<input class="floating-input" name="number" type="text" placeholder=" ">
 										<span class="highlight"></span>
 										<label>Contact Number</label>
 									</div>
 									<div class="floating-label">
-										<input class="floating-input" type="text" placeholder=" ">
+										<input class="floating-input" name="email" type="text" placeholder=" ">
 										<span class="highlight"></span>
 										<label>Work Email</label>
 									</div>
 								</div>
 								<div id="full-width-textarea" class="floating-label">
-									<textarea class="floating-input floating-textarea" placeholder=" "></textarea>
+									<textarea class="floating-input floating-textarea" name="message" type="text" placeholder=" "></textarea>
 									<span class="highlight"></span>
 									<label class="txtarea-lable">How can we help?</label>
 								</div>
 							</div>
-							<input  class="tbtn" type="submit" value="SUBMIT">
+							<input  class="tbtn" type="submit" value="SUBMIT" onsubmit="location.href='kamivsion.com/index_new.html'";>
 						</form>
+						
 					</div>
-
+					
 				</div>
 				<div>
 					<div>
@@ -156,12 +157,12 @@
 		</div>
 	</section>
 
-<p class="mandatory-text">* All fields are mandatory</p>
+
 
 
 
 	<!------------------------------------SECTION 3: FOOTER AND FOOTER MENU SECTION------------------------------------->
-	<section id= "footer"> </section>
+<section id="footer"></section>
 	<!------------------------------------PAGE LOADER LOGIC------------------------------------->
 	<div class="loader-wrapper"><span class="loader"><span class="loader-inner"></span></span></div>
 	<!---------------------------------------------------------------Script Loading------------------------------------------>
@@ -195,6 +196,15 @@
 		});
 
 	</script>
+
+<script language=”JavaScript”>
+
+	var frmvalidator = new Validator(“contact_form”); 
+	frmvalidator.addValidation(“name”,”req”,”Please provide your name”); 
+	frmvalidator.addValidation(“email”,”req”,”Please provide your email”); 
+	frmvalidator.addValidation(“email”,”email”, “Please enter a valid email address”); 
+	</script>
+
 </body>
 
 </html>
