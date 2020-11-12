@@ -276,6 +276,8 @@ section.swipe h2 {
     padding-bottom: 1rem;
     font-weight: normal;
     font-size: 50px;
+	    font-family: 'nolanthin';
+    font-weight: 600;
 }
 .word {
   padding-left: 4rem;
