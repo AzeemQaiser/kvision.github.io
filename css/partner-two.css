@@ -10,7 +10,7 @@ section.career {
 }
 section.career .container .row {
    position: relative;
-   margin-top: 50px
+   /* margin-top: 50px */
 }
 .title {
     color: black;
@@ -42,7 +42,8 @@ section.career .container .row {
    position: absolute;
    opacity: 100%;
    margin-left: 0;
-   margin-top: 20px
+   margin-top: 20px;
+   font-weight: bolder;
    /* left: -36%; */
 }
 
@@ -50,6 +51,38 @@ section.career .container .row {
    margin-top: 5rem;
    margin-bottom: 47px;
 }
+
+.dotGrid .career h2 {
+   font-weight: bolder;
+}
+
+.title h2 {
+     font-size: 40px;
+     margin-left: 11px;
+     font-weight: 900;
+}
+
+
+@media (min-width: 992px) {
+   .container {
+     padding-left: 16px;
+     padding-right: 16px;
+   }
+   .row {
+     margin-left: -16px;
+     margin-right: -16px;
+   }
+   .row > [class*="col"] {
+     padding-left: 70px;
+     padding-right: 16px;
+     padding-top: 60px;
+   }
+   .row3 > [class*="col"] {
+     padding-left: 70px;
+     padding-right: 16px;
+     /* padding-top: 60px; */
+   }
+ }
 
 .buttonsub {
    background: #17416D;
@@ -218,8 +251,9 @@ img.corner-IMG {
 
 .test-head2 h2 {
    text-align: center;
-   font-size: 26px;
-   font-weight: 100;
+   font-size: 22px;
+   font-weight: 800;
+   line-height: 1.4;
    color: #17416D;
    font-family: "nolanlight";
    margin-top: 75px;
