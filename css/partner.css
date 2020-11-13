@@ -631,29 +631,7 @@ li.sidemenu-active span {
     padding-top: 4%;
     
   }
-  .section-8-form{
-   text-align: center;
-padding-top: 3%;
-padding-left: 0;
-margin: 0 auto;
-width: 100%;
-  }
-.section-8-form .col-sm-4 {
-    float: unset;
-    max-width: unset;
-}
-.section-8-form .col-sm-8 {
-    width: 100%;
-    max-width: unset;
-}  
-.section-8-heading {
-    margin-left: 6rem;
-}
-.bg-setction-8 .section-8-heading, .bg-setction-8 .section-8-form {
-	 margin-left: 0;
-    margin-right: 0;
-    width: 58%;
-}
+
 		input {
   text-align: center;
 }
@@ -732,57 +710,57 @@ input, input::-webkit-input-placeholder {
     /* line-height: 3; */
     font-family: arial;
 }
-.bg-setction-8 {
-    height: auto;
 
-    background-color: #EEEEEE;
-	    padding-bottom: 30px;
- 
-}
-.section-8-heading {
-    text-align: center;
-    padding-top: 4%;
-	padding-bottom: 1rem;
+.bg-setction-8 .section-8-heading,
+.bg-setction-8 .section-8-form {
+	margin-left: 250px;
+	margin-right: 59px;
+	width: 58%;
 }
 
 .section-8-form {
-    text-align: center;
-    padding-top: 3%;
-    padding-left: 0;
+	text-align: center;
+	padding-top: 30px;
+	padding-left: 0;
+	padding-bottom: 50px;
 }
+
+.section-8-form .row1,
+.section-8-form .row2,
+.section-8-form .row3,
+.section-8-form .row4 {
+	margin-left: 0 !important;
+	width: 100% !important;
+}
+
 .section-8-form .col-sm-4 {
-    flex: unset;
-    max-width: unset;
-    width: 50%;
-    margin-right: 1%;
+	display: inline-block;
+	max-width: 50%;
+	width: 50% !important;
+	float: left;
+	padding-left: 0;
+	padding-right: 30px;
 }
-.section-8-form .row4 .buttonsub {
-    margin-bottom: 30px;
+
+.section-8-form .col-sm-8 {
+	width: 100%;
+	padding: 0;
+	max-width: 100%;
 }
-.section-8-form .col-sm-4:nth-child(2) {
-    margin: 0;
+
+.section-8-form .col-sm-8 input {
+	height: 114px;
 }
-.section-8-form .row {
-    padding-bottom: 20px;
-    width: 46rem;
-    margin-left: 26px;
+
+.section-8-form > div > .col-sm-4:nth-child(2) {
+	padding-right: 0;
 }
-.section-8-form .row1 {
-    padding-bottom: 21px;
-    width: 49rem;
-    margin-left: 74px;
-    display: flex;
-}
-.section-8-form .row2 {
-    padding-bottom: 20px;
-    width: 50rem;
-    margin-left: 70px;
-    display: flex;
-}
-.section-8-form .row3 {
-    padding-bottom: 20px;
-    width: 46rem;
-    margin-left: 74px;
+
+.section-8-form input {
+	height: 40px;
+	margin-bottom: 10px;
+	font-family: arial;
+	font-size: 14px;
 }
 textarea {
     overflow: auto;
