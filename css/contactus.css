@@ -158,7 +158,7 @@ textarea.floating-input {
   }
   .contactsec-form h2 {
 /*	  changed font size from 32 to 64*/
-      font-size: 64px; 
+      font-size: 46px; 
 /*	  reducing font weight to 300 from 600*/
       font-weight: 300;
       color: #262626;
@@ -173,7 +173,7 @@ textarea.floating-input {
 .contactsec-formhead p {
 	font-family: "lato-Light";
 	letter-spacing: -1.09px;
-	font-size: 26px;
+	font-size: 24px;
 	color: #000000;
 }
   input.tbtn {
@@ -230,7 +230,7 @@ textarea.floating-input {
 	color: #172738;
 	font-family: "Lato";
 	letter-spacing: -1.01px;
-	font-size: 24px;
+	font-size: 20px;
 	line-height: 0.9;
 	margin-bottom: 0;
 	font-weight: 100;
@@ -267,7 +267,7 @@ textarea.floating-input {
   .some-page-wrapper {
     margin: 15px;
 	  width: 16%;
-	  padding-top: 45px;
+	  margin-top: 100px;
 	  margin-right: 30px;
 	  margin-left: 30px;
   }
@@ -286,55 +286,67 @@ textarea.floating-input {
   }
   
   
+
+
+
 /*sryles to the lcoation made by baqtiyar*/
+
+.cntlocation
+{
+    margin-top: 5rem;
+    margin-bottom: 6rem;
+    width: 100%;
+   
+}
 #locations-row {
-	margin-left: -11rem;
-	margin-bottom: 150px;
-	width: 230%;
-	padding: 0;
-	min-height: 17rem;
-/*	outline: 3px solid red;*/
-}
+	margin-left: 20rem;
 
-.locations-img-container {
-	margin: 0;
-	text-align: center;
-	position: relative;
-	margin-right: 25px;
-	
 }
-.locations-img {
-	width: 100%;
-	height: auto;
-	border-radius: 30px;
-	position: absolute;
-	left: 0;
-	top: 0;
-}
-
 .locations-title-container {
-	margin-left: -12rem;
+
 	margin-top: 40px;
 	margin-bottom: 30px;
 }
 
 .locations-title {
-	font-size: 56px;
-	color: #17416d;
-	font-family: nolanlight;
-	letter-spacing: -2.8px;
+    font-size: 46px;
+    color: #17416d;
+    font-family: nolanlight;
+    letter-spacing: -2.8px;
+     padding-left: 280px;
 }
 
 .hide-location-thumbnail {
 	display: none;
 }
 
+.locations-img-container {
+    margin: 0;
+    text-align: center;
+    position: relative;
+    margin-right: -150px;
+    margin-top: -30px;
+    margin-left: -700px;
+	
+}
+.locations-img {
+    width: 70%;
+    height: auto;
+    border-radius: 30px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 70px;
+}
+
 .location-mask {
-	position: absolute;
-	top: 57%;
-	transform: rotate(90deg);
-	left: -500px;
-	max-height: 400px;
+    position: absolute;
+    /* top: 57%; */
+    transform: rotate(90deg);
+    left: -500px;
+    /* max-height: 400px; */
+    margin-top: -50px;
+    transform: rotateX(45deg);
 }
 
 .mandatory-text {
