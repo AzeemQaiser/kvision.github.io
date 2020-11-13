@@ -784,7 +784,10 @@ p.more3 {
 	position: absolute;
 	bottom: 20px;
 	font-size: 14px;
-	margin-left: 60px
+	margin-left: 60px;
+	color:white;
+	text-decoration: inherit;
+	
 }
 
 img.demoscamera1-img {
