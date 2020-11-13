@@ -24,9 +24,9 @@
 .bg-setction-3{
      height: auto;
     position: initial;
-	    margin-top: -150px;
+	    margin-top: -100px;
 		margin-bottom: 159px;
-		}
+    }
 	
 
 .bg-setction-7{
@@ -115,9 +115,9 @@
 	.section2-image{
 	    /* height: 365px; */
     /* width: 100%; */
-    width: 320px;
+    /* width: 320px; */
     position: absolute;
-    /* margin-top: -8rem; */
+    margin-top: 12rem;
 		 
 	}
 	.mb-3{
@@ -161,13 +161,12 @@ line-height: 1.2;
     padding-left: 12px;
     padding-right: 12px;
 }
-.section3-ul{
+.section3-ul {
     list-style-type: none;
     display: inline-flex;
     width: 52em;
     height: 0px;
     margin-left: -167px;
-    margin-top: 103px;
 }
  .divider{
   border-top: 2px solid #A8D9FC;
@@ -215,11 +214,6 @@ text-align: center;
 .post {
     width: 500px;
   display: inline-flex;
-}
-
-.section-4-benHead {
-    /* margin-top: 205px; */
-    margin-left: 0;
 }
 		.section3-li{
 		 
@@ -452,6 +446,7 @@ margin-top: 1em;
 			.cal4-img4 {
     position: absolute;
     width: 15em;
+    /* width: 100%; */
     height: 10em;
     margin-top: 8%;
     margin-left: 29px;
@@ -901,6 +896,7 @@ background-size: 24px 20px;
 }	
 .section-4-benHead {
     width: 100%;
+    margin-left: 0;
     margin: 170px auto 0;
     text-align: center;
 }
