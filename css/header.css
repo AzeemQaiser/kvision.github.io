@@ -712,7 +712,7 @@ ul.dropdown-content li {
     background: none !important;
 }
 .lastchild{
-	padding-bottom: 10rem !important;
+	padding-bottom: 1rem !important;
 }
 @media (max-width: 768px) {
 .display-1 {

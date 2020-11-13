@@ -700,10 +700,9 @@ button.click1 {
     /* line-height: 1; */
     padding-bottom: 0.7rem;
     padding-top: 0.7rem;
-	    font-size: 50px;
-    font-weight: 100;
-	    font-family: 'nolanthin';
-    font-weight: 600;
+	font-size: 36px;
+    font-family: 'nolanthin';
+    
 }
 .partner-img {
     margin-top: -1rem;

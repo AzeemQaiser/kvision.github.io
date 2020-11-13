@@ -30,11 +30,13 @@
 	
 
 .bg-setction-7{
-   height: auto;
-    width: 100%;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    background-color: #D6E7F4;
+    
+        height: auto;
+        width: 100%;
+        padding-top: .1rem;
+        padding-bottom: 1rem;
+        background-color: #D6E7F4;
+    
    
 }
 
@@ -45,6 +47,7 @@
     padding-bottom: 4rem;
     color: #17416D;
     font-family: 'Nolan';
+    background-color: #D6E7F4;
     /* margin-left: -64px; */
     /* margin-top: 16px; */
     /* line-height: 1.2s */
@@ -61,6 +64,9 @@
     width: 100%;
     text-align: center;
     padding-left: 0 !important;
+    color: #7E8285;
+    font-size: 28px;
+    font-family:'nolanlight';
 }
 .section-8-form > div {
     margin-left: 39px !important;
@@ -112,12 +118,25 @@
 .bg-setction-6 .row-2 {
     margin-left: 54px;
 }
-	.section2-image{
-	    /* height: 365px; */
-    /* width: 100%; */
+
+.section-quote-border {
+    text-align: center;
+    height: auto;
+    width: 100%;
+    margin-left: 0em;
+    margin-top: -50px;
+    /* border-style: solid; */
+    padding-bottom: 30px;
+    border-color: #DBE6EE;
+    background-color: #d6e7f4;
+    opacity: 10px;
+}
+.section2-image{
+	height: 365px;
+    width: 135%;
     /* width: 320px; */
     position: absolute;
-    margin-top: 12rem;
+    margin-top: 10rem;
 		 
 	}
 	.mb-3{
@@ -725,12 +744,7 @@ input, input::-webkit-input-placeholder {
     padding-top: 4%;
 	padding-bottom: 1rem;
 }
-.section-8-heading h4 {
-   
-      color: #7E8285;
-   
-    font-size: 28px;
-}
+
 .section-8-form {
     text-align: center;
     padding-top: 3%;
@@ -1107,3 +1121,15 @@ margin-right: auto !important
 }
 }
  
+.dotGridpattern {
+    background-size: 22px 22px;
+    /* background-color: #f4faff; */
+    background-color: #bce1ff;
+    width: 100%;
+    height: 5rem;
+    position: absolute;
+    /* opacity: 13%; */
+    top: 68px;
+    margin-left: 0;
+    /* left: -36%; */
+}
