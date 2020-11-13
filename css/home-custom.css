@@ -125,8 +125,8 @@ font-size: 18px;
    color: #147AE3;
     font-size: 26px;
     padding-left: 2.5rem;
-    font-family: 'Lato';
-    font-weight: 300 !important;
+    font-family: 'nolan';
+    font-weight: 400 !important;
 }
 .benefit-Bg {
     padding-top: 1rem;
@@ -312,16 +312,15 @@ li.sidemenu-active span {
 
 
 .head h2 {
-    text-align: center;
-    padding-bottom: 40px;
-    letter-spacing: -2.8px;
-    color: rgba(23, 65, 109, 1);
-   
-    font: normal normal 100 41px/26px Nolan;
+   text-align: center;
+   padding-bottom: 40px;
+   letter-spacing: -2.8px;
+   color: rgba(23, 65, 109, 1);
+   font: normal normal 100 41px/26px nolanlight;
     margin-top: -7rem;
 	    margin-left: 5rem;
-		    font-family: 'nolanthin';
-    font-weight: 600;
+		    font-family: 'nolanlight';
+    font-weight: 300;
 }
 .head2 h2 {
     text-align: center;
@@ -329,11 +328,11 @@ li.sidemenu-active span {
     letter-spacing: -2.8px;
     color: rgba(23, 65, 109, 1);
 
-    font: normal normal 100 41px/26px Nolan;
+    font: normal normal 100 41px/26px nolanlight;
     margin-top: -7rem;
 	margin-right: 13rem;
-	   font-family: 'nolanthin';
-    font-weight: 600;
+	   font-family: 'nolanlight';
+    font-weight: 300;
 }
 .consumer.target .container {
     padding-top: 115px;
@@ -361,11 +360,12 @@ p.outside {
     font-family: 'Lato';
     font-weight: 100;
     color: rgba(23, 65, 109, 1);
-    font-size: 17px;
+    font-size: 15px;
     text-align: center;
     margin-left: 7rem;
     margin-right: 1rem;
     letter-spacing: -0.28px;
+    text-justify: inter-word;
 }
 p.inside-1 {
       font-size: 25px;
@@ -379,13 +379,14 @@ p.inside-1 {
 	    margin-bottom: 30px;
 }
 p.outside-1 {
-        line-height: 1.5;
+    line-height: 1.5;
     font-family: 'Lato';
     font-weight: 100;
     color: rgba(23, 65, 109, 1);
-    font-size: 17px;
+    font-size: 15px;
     text-align: center;
     margin-right: 11rem;
+    text-justify: inter-word;
 }
 img.mask-IMG {
    
@@ -690,7 +691,7 @@ button.click1 {
 	position: relative;
 }
 .partner-highlighttxt {
-       text-align: center;
+    text-align: center;
     color: #000000;
     font-size: 40px;
     margin-bottom: 2rem;
@@ -701,7 +702,8 @@ button.click1 {
     padding-bottom: 0.7rem;
     padding-top: 0.7rem;
 	font-size: 36px;
-    font-family: 'nolanthin';
+    font-family: 'nolanlight';
+    font-weight: 500;
     
 }
 .partner-img {
