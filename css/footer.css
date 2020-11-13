@@ -81,6 +81,12 @@
     color: #16222E;
 }
 
+.linkhdecoration
+{
+  color:white;
+  text-decoration: inherit;
+}
+
 .cid-sckHfhtRnm .soc-item .footer-icon-style2 {
    display: flex;
     align-items: center;
