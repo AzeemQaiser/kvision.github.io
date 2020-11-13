@@ -72,10 +72,13 @@ section.career .container .row {
      margin-left: -16px;
      margin-right: -16px;
    }
+   .row5 > [class*="col"] {
+      padding-top: 90px;
+    }
    .row > [class*="col"] {
      padding-left: 70px;
      padding-right: 16px;
-     padding-top: 60px;
+     /* padding-top: 90px; */
    }
    .row3 > [class*="col"] {
      padding-left: 70px;
@@ -143,7 +146,7 @@ p.car-con {
    flex: unset;
    max-width: unset;
    width: 65%;
-   padding-left: 180px;
+   padding-left: 250px;
    padding-right: 0;
    margin-top: 200px;
 }
@@ -241,7 +244,7 @@ img.corner-IMG {
 .test-head2 h2 {
    text-align: center;
    font-size: 22px;
-   font-weight: 800;
+   /* font-weight: 800; */
    line-height: 1.4;
    color: #17416D;
    font-family: "nolan";

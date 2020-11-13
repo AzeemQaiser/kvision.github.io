@@ -136,7 +136,7 @@
     width: 135%;
     /* width: 320px; */
     position: absolute;
-    margin-top: 10rem;
+    margin-top: 12rem;
 		 
 	}
 	.mb-3{
@@ -1006,7 +1006,7 @@ background-size: 24px 20px;
     position: relative;
     width: 100%;
 	margin-bottom: 20px;
-	padding: 0;
+    padding: 0;
 }
 .bg-setction-6 .col-lg-8 {
     display: none;
