@@ -424,7 +424,7 @@ label {
 
 
 .contactsec-form {
-      background: #D6E7F4;
+      /* background: #D6E7F4; */
     padding-top: 2.5rem;
     /* padding-left: 3rem; */
     padding-bottom: 2.5rem;
@@ -773,6 +773,14 @@ p.contactsec-brntitle {
 }
 .contactsection {
     margin-top: 8px;
+}
+
+.contactsec-form {
+    background: #D6E7F4;
+  padding-top: 2.5rem;
+  /* padding-left: 3rem; */
+  padding-bottom: 2.5rem;
+  /* padding-right: 3rem; */
 }
 .dotGrid1 {
     background-size: 20px 24px;
