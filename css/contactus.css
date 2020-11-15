@@ -1,3 +1,243 @@
+.camera-head h2 {
+	text-align: center;
+	padding-top: 4rem;
+	font-size: 36px;
+	font-weight: 500;
+	margin-left: -6rem;
+	font-family: "nolanlight";
+	letter-spacing: -2.8px;
+}
+
+.camera-head p {
+	text-align: center;
+	padding-top: 1rem;
+	font-size: 14px;
+	font-family: 'Lato';
+	font-weight: 300;
+	padding-left: 9rem;
+	padding-right: 10rem;
+	margin-bottom: 20px;
+
+}
+
+ul.camera-libary {
+	list-style-type: none;
+	display: flex;
+}
+
+.camera {
+	width: 100%;
+/*		margin-top: -26rem;*/
+}
+
+.demos-camera h1 {
+	text-align: center;
+	font-size: 18px;
+	font-weight: 600;
+	padding-top: 2rem;
+	padding-bottom: .5rem;
+	font-family: 'Lato';
+	margin-bottom: 0;
+}
+
+.demos-camera p {
+	text-align: center;
+	padding-right: 2rem;
+	padding-left: 2rem;
+	font-size: 12px;
+	font-family: "Lato";
+	font-weight: 100;
+	letter-spacing: -0.16px;
+	color: #000000;
+	line-height: 1.2;
+}
+
+.demos-camera {
+	height: 20rem;
+	margin-left: 44px;
+	margin-top: 2rem;
+	width: 100%;
+	background-color: beige; 
+	border-radius: 35px;
+    opacity: 1;
+}
+
+
+
+.babycamera h1 {
+	text-align: center;
+	font-size: 18px;
+	font-weight: 600;
+	padding-top: 2rem;
+	padding-bottom: 1rem;
+	font-family: 'Lato';
+}
+
+.babycamera p {
+	line-height: 1.2;
+	/* color: #496a8d; */
+	text-align: center;
+	padding-right: 2rem;
+	padding-left: 2rem;
+	font-size: 12px;
+	font-family: "Lato";
+	font-weight: 100;
+	letter-spacing: -0.16px;
+	color: #000000;
+}
+
+.babycamera {
+	height: 20rem;
+	width: 82%;
+	margin-left: -46px;
+	/*	margin-top: -1rem;*/
+	margin-top: 2rem;
+}
+
+
+.doorbell h1 {
+	text-align: center;
+	font-size: 18px;
+	font-weight: 600;
+	padding-top: 2rem;
+/*	padding-bottom: 1rem;*/
+	font-family: 'Lato';
+}
+
+.doorbell p {
+	line-height: 1.2;
+	/* color: #496a8d; */
+	text-align: center;
+	padding-right: 2rem;
+	padding-left: 2rem;
+	font-size: 12px;
+	font-family: "Lato";
+	font-weight: 100;
+	letter-spacing: -0.16px;
+	color: #000000;
+}
+
+.outdoor h1 {
+	text-align: center;
+	font-size: 18px;
+	font-weight: 600;
+	padding-top: 2rem;
+/*	padding-bottom: 1rem;*/
+	font-family: 'Lato';
+}
+
+.outdoor p {
+	line-height: 1.2;
+	/* color: #496a8d; */
+	text-align: center;
+	padding-right: 2rem;
+	padding-left: 2rem;
+	font-size: 12px;
+	font-family: "Lato";
+	font-weight: 100;
+	letter-spacing: -0.16px;
+	color: #000000;
+}
+
+.outdoor {
+	height: 10rem;
+	width: 82%;
+	margin-left: -104px;
+	background-color: aqua;
+}
+
+img.demoscamera1-img {
+	width: 100%;
+	margin-top: 50px;
+	/* transform: scale(0.6); */
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.demoscamera2-img {
+	/* width: 62%; */
+	width: 100%;
+	/* margin-top: -75px; */
+	transform: scale(0.8);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.demoscamera3-img {
+	margin-top: -110px;
+	margin-left: auto;
+	margin-right: auto;
+	transform: scale(0.45);
+
+}
+
+img.demoscamera4-img {
+	width: 100%;
+	margin-top: 50px;
+	/* transform: scale(0.6); */
+	margin-left: auto;
+	margin-right: auto;
+}
+div.demos2-img {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 305px;
+}
+
+.baby-camera-margin-btm {
+	margin-bottom: 160px;
+}
+
+
+/* img.demoscamera4-img {
+	width: 70%;
+	margin: 25px auto;
+} */
+
+img.homesec-img {
+	margin-left: -68.9px;
+	width: 15%;
+	height: 10rem;
+	margin-top: 326px;
+}
+
+img.homesec1-img {
+	width: auto;
+	margin-top: -160px;
+	height: 10rem;
+	right: 5px;
+	position: absolute;
+}
+
+.camerasec .camera-libary {
+	margin: 0 auto  !important;
+	width: 100%;
+	padding: 0;
+}
+
+.camera-libary li {
+	width: 23.3%;
+	margin: 0 13px;
+}
+
+.camera-libary li:nth-child(2) {
+	/*	margin-top: -39px;*/
+	border-radius: 25px;
+
+}
+
+.camera-libary li > div {
+/*	height: auto;*/
+	margin: 0;
+	margin-top: 0px;
+	margin-top: 0;
+	width: 100%;
+}
+
+.camera-libary li:nth-child(3) p {
+	/* padding-bottom: 18px; */
+}
+
 .floating-form {
   width:100%;
 }
@@ -272,7 +512,7 @@ p.contactsec-brntitle {
 }
 .dotGrid1 {
     background-size: 30px 32px;
-    background-image:radial-gradient(#DDEEFA 2.7px, transparent 0);
+    /* background-image:radial-gradient(#DDEEFA 2.7px, transparent 0); */
     width: 48%;
     height: 228px;
     position: absolute;
@@ -467,6 +707,11 @@ p.contactsec-brntitle {
     left: 0;
     z-index: 0;
 }
+
+.bannercam1 {
+    margin-left: -40px;
+}
+
 .contactsec-headrow p {
 	font-size: 12px;
 	color: #1E4671;
