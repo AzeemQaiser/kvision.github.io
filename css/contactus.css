@@ -20,9 +20,31 @@
 
 }
 
+.case-head h2 {
+    color: #17416d;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
 ul.camera-libary {
 	list-style-type: none;
 	display: flex;
+}
+
+img.scrip-IMG {
+    width: 250px;
+    margin-top: 29rem;
+    position: absolute;
+    height: 25.5rem;
+    /* left: 324px; */
+    z-index: 1;
+	right: 0px;
+	position: absolute;
+    top: -500px;
+    transform: rotate(90deg);
+	left: -120px;
+	
+                /* float: right; */
 }
 
 .camera {
@@ -402,7 +424,7 @@ label {
 
 
 .contactsec-form {
-      /* background: #D6E7F4; */
+      background: #D6E7F4;
     padding-top: 2.5rem;
     /* padding-left: 3rem; */
     padding-bottom: 2.5rem;
@@ -513,6 +535,10 @@ p.contactsec-brntitle {
     /* height: 2px; */
     border-width: 1.5px;
     border-color: #D6E7F4;
+}
+
+.contactsec-form form .floating-form .floatinglabelhead {
+    display: none;
 }
 .dotGrid1 {
     background-size: 30px 32px;
@@ -739,7 +765,7 @@ p.contactsec-brntitle {
 	height: 120px;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 25px 70px 10px 10px;
+	padding: 25px 10px 10px 70px;
 	position: relative;
 	z-index: 1;
 	margin-bottom: 50px;
@@ -772,13 +798,22 @@ p.contactsec-brntitle {
 	margin-left: 0px;
 	margin-top: 2rem;
 	width: 100%;
-	background-color: aqua;
+	/* background-color: aqua; */
 	/* border-radius: 35px; */
 	opacity: 1;
 }
 
 .bannercam1 {
     margin-left: -40px;
+    margin-top: 400px;
+}
+
+.case-head {
+    display: none;
+}
+
+.scrip-IMG {
+    display: none;
 }
 
 .camerasec .container {
@@ -858,7 +893,7 @@ p.contactsec-brntitle {
     /* height: auto; */
     margin: 0;
     width: 100%;
-    padding: 20px 20px 20px 115px;
+    padding: 20px 20px 20px 20px;
 }
 
 .camera-libary li > div.demos-camera {
@@ -911,6 +946,7 @@ p.contactsec-brntitle {
 .floating-label {
     margin-bottom: 4rem;
 }
+
 .contactsec-form input.tbtn {
     background-color: #172738;
     border: 0;
@@ -961,6 +997,13 @@ p.contactsec-brntitle {
     width: 300px;
     height: 19.5rem;
 }
+
+.contactsec-form form .floating-form .floatinglabelhead {
+    text-align:center;
+    margin-left: 60px;
+    font-size:36px
+}
+
 /*footer css*/
  .footersecnew1{
     background-color: #1d3855 !important;
