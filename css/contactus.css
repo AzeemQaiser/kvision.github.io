@@ -57,7 +57,7 @@ ul.camera-libary {
 	margin-left: 44px;
 	margin-top: 2rem;
 	width: 100%;
-	background-color: beige; 
+	/* background-color: beige;  */
 	border-radius: 35px;
     opacity: 1;
 }
@@ -136,22 +136,24 @@ ul.camera-libary {
 	font-family: "Lato";
 	font-weight: 100;
 	letter-spacing: -0.16px;
-	color: #000000;
+    color: #000000;
+    text-align: left;
 }
 
 .outdoor {
 	height: 10rem;
 	width: 82%;
 	margin-left: -104px;
-	background-color: aqua;
+	background-color: transparent;
 }
 
 img.demoscamera1-img {
 	width: 100%;
-	margin-top: 50px;
+	/* margin-top: 50px; */
 	/* transform: scale(0.6); */
 	margin-left: auto;
-	margin-right: auto;
+    margin-right: auto;
+    border-radius: 25px;
 }
 
 img.demoscamera2-img {
@@ -231,7 +233,8 @@ img.homesec1-img {
 	margin: 0;
 	margin-top: 0px;
 	margin-top: 0;
-	width: 100%;
+    width: 100%;
+    margin-left: -90px;
 }
 
 .camera-libary li:nth-child(3) p {
@@ -491,7 +494,8 @@ p.contactsec-brntitle {
     color: #17416D;
     font-weight: bold;
 	 padding-bottom: 3px;
-	 font-size: 16px;
+     font-size: 16px;
+     text-align: left;
 
 }
 .contactsec-num {
@@ -618,7 +622,56 @@ p.contactsec-brntitle {
 }
 }
 @media (max-width: 768px){
-.contactsection{
+
+/****  floating-Lable style start ****/
+.floating-label { 
+    position:relative; 
+    /* margin-bottom:3rem;  */
+    width: 100%;
+    /* float: left; */
+  }
+  .floating-label2 { 
+    /* position: relative;  */
+    margin-bottom:3rem; 
+    top: 20rem;
+    margin-bottom: 10rem;
+  }
+  
+  /* .floating-label  .label2 {
+      width: 100%;
+      float: unset;
+      top: 5rem;
+      margin-bottom: 10rem;
+  } */
+  .floating-input , .floating-select {
+      font-size: 15px;
+      padding: 4px 4px;
+      /* display: block; */
+      width: 80%;
+      /* float: left; */
+      height: 30px;
+      background-color: transparent;
+      border: none;
+      align-content: right;
+      margin-left: 21px;
+      border-bottom: 2px solid #17416D;
+  }
+  
+  .floating-input2 {
+      font-size: 15px;
+      padding: 4px 4px;
+      display: block;
+      width: 90%;
+      /* float: left; */
+      height: 30px;
+      background-color: transparent;
+      border: none;
+      align-content: right;
+      margin-left: 21px;
+      border-bottom: 2px solid #17416D;
+  }
+
+    .contactsection{
 	margin-top: 2rem;
 	margin-bottom: 2rem;
 }
@@ -628,7 +681,7 @@ p.contactsec-brntitle {
     padding-left: 0px;
 }
 .contactsec-headrow h2 {
-         font-size: 16px;
+         font-size: 30px;
     font-weight: 400;
     padding-bottom: 1rem;
 }
@@ -638,6 +691,8 @@ p.contactsec-brntitle {
     font-family: 'Lato';
     line-height: 1.4;
     font-weight: 300;
+    text-align: center;
+    margin-left: -50px;
 }
 .contactsec-headrow {
     padding-left: 15%;
@@ -679,10 +734,10 @@ p.contactsec-brntitle {
 
 @media (max-width: 767px) {
 	.contactsection .contactsec-headrow {
-	background-color: #fff;
+	background-color: #f4faff;
 	display: block;
 	height: 120px;
-	margin-left: 57px;
+	margin-left: auto;
 	margin-right: auto;
 	padding: 25px 70px 10px 10px;
 	position: relative;
@@ -708,8 +763,117 @@ p.contactsec-brntitle {
     z-index: 0;
 }
 
+.demos-camera {
+    display: none;
+}
+
+.outdoor {
+    height: 12rem;
+	margin-left: 0px;
+	margin-top: 2rem;
+	width: 100%;
+	background-color: aqua;
+	/* border-radius: 35px; */
+	opacity: 1;
+}
+
 .bannercam1 {
     margin-left: -40px;
+}
+
+.camerasec .container {
+    padding: 0;
+    width: 100%;
+}
+
+.camerasec .row.con-bordersec {
+    width: 100%;
+    border: 0;
+}
+
+.camera-head {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.camera-head h2 {
+    margin-left: 0;
+}
+
+.camera-head p {
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 22px;
+    font-weight: 300;
+    padding-bottom: 1rem;
+}
+
+.col-sm-8col-lg-8 {
+    margin-top: -300px;
+    margin-left: 70px;
+}
+
+.home1-img,
+.home-img {
+    display: none;
+}
+
+.camera {
+    width: 100%;
+    margin-top: 350px;
+}
+
+.camerasec .camera-libary {
+    margin: 0 auto !important;
+    width: 100%;
+    padding: 0;
+    display: block;
+    
+}
+
+.bannercam1 {
+    margin-left: -40px;
+}
+
+.camera-libary li {
+    width: 100%;
+    margin: 0;
+    display: block;
+    position: relative;
+}
+
+.camera-libary li > div div img {
+    width: 100px;
+    margin-left: 0;
+    background-color: transparent;
+    margin-top: 0;
+    padding-bottom: 7px;
+    padding-top: 5px;
+    position: absolute;
+    /* left: 10px; */
+    top: 24px;
+}
+
+.camera-libary li > div {
+    /* height: auto; */
+    margin: 0;
+    width: 100%;
+    padding: 20px 20px 20px 115px;
+}
+
+.camera-libary li > div.demos-camera {
+    /* padding-bottom: 70px; */
+}
+
+.camera-libary li > div h1,
+.camera-libary li > div p {
+    text-align: left;
+    /* padding: 0; */
+}
+
+.camera-libary li:nth-child(1),
+.camera-libary li:nth-child(3) {
+    margin-top: 0;
 }
 
 .contactsec-headrow p {
@@ -754,12 +918,14 @@ p.contactsec-brntitle {
     width: auto;
     font-size: 14px;
     margin-left: 21px;
+    margin-top: 200px;
 }
 p.contactsec-brntitle {
     color: #17416D;
     font-weight: bold;
     padding-bottom: 3px;
     font-size: 20px;
+    text-align: left;
 }
 .addrCol p {
     font-size: 16px;
@@ -776,6 +942,7 @@ p.contactsec-brntitle {
     font-weight: bold;
     padding-bottom: 3px;
     font-size: 20px;
+    text-align: left;
 }
 .addrCol p {
     font-size: 16px;
