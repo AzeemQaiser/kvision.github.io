@@ -1,5 +1,9 @@
 /**@import url(https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap);*/
 
+
+
+
+
 body {
   /**font-family: adobe-ocean,sans-serif;*/
     font-family: 'Nolan' !important;
@@ -1727,6 +1731,17 @@ li.rollingstone {
     font-family: 'Lato';
     font-size: 13px;
     letter-spacing: 0.16px;
+}
+
+.titlewrapper {
+  width: 120%;
+  font-size: 45px;
+  font-weight: 100;
+  line-height: 1.2;
+  letter-spacing: 0px;
+  margin: 0 auto;
+  min-height: inherit;
+  background-color: #f4faff;
 }
 
 /**********************21-10-2020******************************/
