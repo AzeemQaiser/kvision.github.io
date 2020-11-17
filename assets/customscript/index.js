@@ -40,7 +40,6 @@ function partnerMore() {
 
 function businessMore() {
     window.location.href = 'business.html';
-    window.location.href = 'business.html';
 }
 
 function consumerMore() {

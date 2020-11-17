@@ -1,0 +1,99 @@
+section#section5 {
+    padding-bottom: 4rem;
+	    padding-top: 0rem;
+}
+.partnerdiv {
+    position: relative;
+}
+.partner-highlighttxt {
+    text-align: center;
+    color: #000000;
+    font-size: 40px;
+    margin-bottom: 2rem;
+    font-weight: 100;
+}
+.partner-highlighttxt p {
+    /* line-height: 1; */
+    padding-bottom: 0.7rem;
+    padding-top: 0.7rem;
+    font-size: 36px;
+    font-family: 'nolanlight';
+    font-weight: 500;
+}
+.partner-img {
+    margin-top: -1rem;
+    float: none;
+}
+
+.partnersec-txt p {
+	font-size: 26px;
+	color: #000000;
+	font-weight: 100;
+	line-height: 1;
+	font-family: 'Lato';
+	text-align: center;
+	width: 120%;
+	   padding-left: 3rem;
+    padding-right: 3rem;
+}
+.partner-click {
+    background-color: white;
+    border-style: none;
+    margin-left: 23rem;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: -1.01px;
+}
+@media (min-width: 991px){
+.partnersec .container {
+    padding-right: 0px !important;
+}
+
+}
+@media (max-width: 992px){
+section#section5 {
+    padding-bottom: 0rem;
+    padding-top: 4rem;
+}
+.partnerdiv {
+    margin-left: 0;
+    margin-right: 0
+}
+.partner-highlighttxt {
+    width: 80%;
+    margin-left: 0;
+}
+}
+@media (max-width: 767px)
+{
+.partner-highlighttxt p {
+    padding-bottom: 0.7rem;
+    padding-top: 5.7rem;
+    font-size: 23px;
+    font-weight: 100;
+    margin-left: 65px;
+    font-family: 'nolanthin';
+    font-weight: 600;
+}
+.partnersec-txt p {
+    font-size: 20px;
+    color: #000000;
+    font-weight: 300;
+    line-height: 1.5;
+    font-family: 'Lato';
+    text-align: center;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    margin-top: -1rem;
+}
+.partner-click{
+    background-color: white;
+    border-style: none;
+    margin-left: 31rem;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: -1.01px;
+    margin-left: 6rem;
+}
+}
+
