@@ -196,6 +196,10 @@ p.div-txt {
     margin-left: 0px;
     width: 100%;
 }
+.sliderBtn1 {
+    display: none;
+}
+
 .sliderBtn .uparrow{ cursor: pointer;
     border-radius: 50%;} .sliderBtn .downarrow {
     cursor: pointer;
@@ -205,10 +209,10 @@ p.div-txt {
 
     /* height: 35rem; */
     /* margin-bottom: 51px; */
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
 }
-section.swipe ul {
+section.swipe ul 
     list-style: none;
 }
  .loc h2 {
@@ -273,11 +277,10 @@ img.man-IMG {
 section.swipe h2 {
     text-align: center;
     letter-spacing: -2.8px;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
     font-weight: normal;
-    font-size: 46px;
-	font-family: 'nolanlight';
-    
+    font-size: 50px;
+	    padding-top: 2rem;
 }
 .word {
   padding-left: 4rem;
@@ -716,4 +719,30 @@ img.downarrow.swiper-button-disabled {
     width: 25%;
     margin-left: 30rem;
     }
+	.sliderBtn1 {
+    display: block;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    padding-bottom: 8rem;
+}
+img.uparrow1 {
+    width: 20%;
+    border-radius: 50px;
+    transform: rotate(180deg);
+    margin-left: 27px;
+}
+img.downarrow1 {
+       width: 20%;
+    border-radius: 50px;
+    float: right;
+    margin-top: -44px;
+    margin-right: 87px;
+}
+section.swipe h2 {
+    text-align: center;
+    letter-spacing: -2.8px;
+    padding-bottom: 6rem;
+    font-weight: normal;
+    font-size: 50px;
+}
  }
