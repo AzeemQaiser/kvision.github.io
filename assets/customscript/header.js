@@ -33,3 +33,11 @@ var disp =  $(this).children("ul:first").css("display");
  e.preventDefault();
 
 });
+
+function businessMore() {
+    window.location.href = 'business.html';
+}
+
+function consumerMore() {
+    window.location.href = 'consumer.html';
+}
