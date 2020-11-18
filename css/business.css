@@ -1239,7 +1239,7 @@ img.sliderimg {
         }
         .swiper-slide .overlay {
             display:block;
-            background-color:#dcedf8;
+            background-color:#416588;
             opacity:0.75;
         }
             
@@ -1425,14 +1425,14 @@ width: 22px;
         line-height: 1.3;
             font-size: 22px;
             font-weight: 300;
-            color: black;
+            color: #FFFFFF;
             font-family: 'Lato';
         }
         .overlay h2 {
             font-size: 28px;
             font-weight: 500;
             padding-bottom: 1rem;
-            color: #172738;
+            color: #FFFFFF;
             font-family: 'Nolan';
         }
         .highlightDiv {

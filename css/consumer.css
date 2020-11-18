@@ -1510,8 +1510,8 @@ section#section5 {
 
 	.swiper2-slide .overlay1 {
 	    display: block;
-    background-color: #17416D !important;
-    opacity: 0.75;
+    background-color:#496a8d !important;
+    opacity: 0.75 !important;
     position: relative;
 	 /*   border-radius: 20px; */
     margin-left: 0px !important;
@@ -1520,7 +1520,7 @@ section#section5 {
 	.swiper2-slide .overlay2 {
 	    display: block;
     background-color: #F4FAFF !important;
-    opacity: 0.75;
+    opacity: 0.75 !important;
     position: relative;
 	color:#FFFFFF;
 	   /*   border-radius: 20px; */
@@ -1531,7 +1531,7 @@ section#section5 {
 	.swiper2-slide .overlay3 {
 	    display: block;
     background-color: #EAEAEA !important;
-    opacity: 0.75;
+    opacity: 0.75 !important;
     position: relative;
 	   /*   border-radius: 20px; */
     margin-left: 0px !important;
@@ -1566,6 +1566,34 @@ section#section5 {
 		color: #172738;
 		font-family: 'Nolan';
 	}
+	.overlay1 h2 {
+		font-size: 28px;
+		font-weight: 500;
+		padding-bottom: 1rem;
+		color: #FFFFFF;
+			font-family: 'Nolan';
+	}
+	.overlay1 p.par-1 {
+		line-height: 1.3;
+		font-size: 19px;
+		font-weight: 300;
+		color: #F4FAFF;
+		font-family: 'Lato';
+	}
+	.overlay2 p.par-1 {
+		line-height: 1.3;
+		font-size: 19px;
+		font-weight: 300;
+		color: #17416D;
+		font-family: 'Lato';
+	}
+	.overlay3 p.par-1 {
+		line-height: 1.3;
+		font-size: 19px;
+		font-weight: 300;
+		color:#17416D;
+		font-family: 'Lato';
+	}	
 	
 	.usecasesec .swiper2-slide h1, .usecasesec .swiper2-slide .overlay {
 		width: 100%;
