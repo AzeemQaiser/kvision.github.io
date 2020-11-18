@@ -4,7 +4,15 @@
          duration: 3000,
          once: true,
      });
-	  $(window).on("load", function() {
-     $(".loader-wrapper").fadeOut("slow");
  });
- });
+
+ document.onreadystatechange = function() { 
+    if (document.readyState !== "complete") { 
+        document.querySelector("body").style.visibility = "hidden"; 
+        document.querySelector(".loader-wrapper").style.visibility = "visible"; 
+    } else { 
+        document.querySelector(".loader-wrapper").style.display = "none"; 
+        document.querySelector("body").style.visibility = "visible"; 
+		 $(".loader-wrapper").fadeOut("slow");
+    } 
+}; 
