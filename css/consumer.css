@@ -554,12 +554,7 @@ img.homesec-img {
 	display: none;
 }
 
-.row.con-bordersec {
-	height: auto;
-	width: 96%;
-	margin: 0 0 0 5%;
-	/*	border: 1px solid #90B2CB; removed border as per new design */
-}
+
 
 button.click {
 	
@@ -1487,12 +1482,10 @@ section#section5 {
 	section.usecasesec {
 		margin-left: 0;
 		background-image: none;
-		/* height: 500px; */
+		
 		margin-bottom: 50rem;
-		/* background-position: 0px 250px; */
-		/* background-repeat: repeat-x; */
-		/* background-size: cover; */
-		/* position: relative; */
+		    padding-right: 1rem;
+    padding-left: 0.7rem;
 	}
 
 	.usecasesec .container {
@@ -1517,31 +1510,44 @@ section#section5 {
 
 	.swiper2-slide .overlay1 {
 	    display: block;
-    background-color: #17416D;
+    background-color: #17416D !important;
     opacity: 0.75;
     position: relative;
+	 /*   border-radius: 20px; */
+    margin-left: 0px !important;
+    margin-right: 0px !important;
 	}
 	.swiper2-slide .overlay2 {
 	    display: block;
-    background-color: #F4FAFF;
+    background-color: #F4FAFF !important;
     opacity: 0.75;
     position: relative;
 	color:#FFFFFF;
+	   /*   border-radius: 20px; */
+    margin-left: 0px !important;
+    margin-right: 0px !important;
 	
 	}
 	.swiper2-slide .overlay3 {
 	    display: block;
-    background-color: #EAEAEA;
+    background-color: #EAEAEA !important;
     opacity: 0.75;
     position: relative;
+	   /*   border-radius: 20px; */
+    margin-left: 0px !important;
+    margin-right: 0px !important;
 	}
 
 	.swiper2-slide .in-con {
 		display: none;
 	}
-
+    img.dog-IMG{
+     margin-left: 0px ;
+     margin-right: 0px ; 
+	 border-radius: 0px;
+	}
 	.usecasesec .swiper2-slide img {
-	    width: 23rem;
+	    width: 100%;
     height: 23rem;
 	}
 
@@ -1772,8 +1778,16 @@ section#section5 {
 	margin-right: 0px !important;
 	margin-left: 0px !important;
 }
+.row.con-bordersec {
+	height: auto;
+	width: 96%;
+	margin: 0 0 0 0;
+	/*	border: 1px solid #90B2CB; removed border as per new design */
 }
-
+}
+.swiper-button-disabled {
+    opacity: 0.2;
+}
 @media (min-width: 992px) {
 	.consumersecrow > [class*="col"] {
 		padding-left: 10px;

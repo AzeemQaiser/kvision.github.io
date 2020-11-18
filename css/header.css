@@ -583,8 +583,13 @@ font-family: 'Lato';
   min-height: 45px;
 }
 .cid-s48OLK6784 .navbar-dropdown {
-  padding: .5rem 1rem;
+  padding: 0rem 1rem;
   position: fixed;
+}
+.cid-s48OLK6784 .navbar .navbar-logo img {
+    width: 85px;
+    margin-top: 10px;
+	margin-bottom: -10px;
 }
 }
 

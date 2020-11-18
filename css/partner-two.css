@@ -320,7 +320,7 @@ p.div-txt {
 .swipe .container .page {
    margin-left: 55px;
    width: auto;
-   border-radius: 6px;;
+   border-radius: 50px;;
 }
 .sliderBtn .uparrow, .sliderBtn .downarrow {
    cursor: pointer;
@@ -613,6 +613,7 @@ img.tag-IMG {
 img.downarrow.swiper-button-disabled {
    opacity: 0.2;
 }
+
 .testimonial-bigbox img {
    width: 70px;
    height: 70px;
@@ -630,6 +631,9 @@ img.downarrow.swiper-button-disabled {
 .testimonial-smallbox img {
    width: 35px;
    height: 35px;
+}
+section.swipe.slider-1 {
+    margin-bottom: -11rem;
 }
 
 /* @media(min-width: 992px) {
@@ -874,4 +878,8 @@ img.downarrow.swiper-button-disabled {
    width: 25%;
    margin-left: 30rem;
    }
+  section.swipe.slider-1 {
+    margin-bottom: 0rem;
+	overflow-x: hidden;
+} 
 }
