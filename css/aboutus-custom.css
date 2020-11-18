@@ -2808,10 +2808,9 @@ section.section3 {
 .dropdown-content img {
     display: none;
 }
-a#solution {
+/*a#solution {
     display: none;
-}
-}
+}*/
  .swiper-container {
       width: 100%;
       height: 100%;

@@ -30,7 +30,7 @@
 				}
 			}
 		});
-		  var swiper = new Swiper('.swiper-container', {
+		  var swiper = new Swiper('.testimonial-swiper', {
 	   effect: 'flip',
         navigation: {
            nextEl: '.down',
