@@ -1800,3 +1800,9 @@ section#section5 {
 }
 
 @media (max-width: 991px) {}
+@media (min-width: 991px) {
+	.row.mbr-white {
+    width: 86%;
+    padding-left: 70px !important;
+}
+}
