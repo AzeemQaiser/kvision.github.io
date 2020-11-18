@@ -741,7 +741,7 @@ img.downarrow1 {
 section.swipe h2 {
     text-align: center;
     letter-spacing: -2.8px;
-    padding-bottom: 6rem;
+    padding-bottom: 0rem;
     font-weight: normal;
     font-size: 50px;
 }

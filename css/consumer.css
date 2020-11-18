@@ -401,7 +401,7 @@ img.dog-IMG {
     margin-right: 0px; */
 
 }
-.swiper-wrapper1{
+.swiper-wrapper{
     position: relative;
     width: 100%;
     height: 100%;
@@ -419,7 +419,7 @@ ul.case-con li {
 	margin-left: -22px;
 }
 
-.swiper2-slide:hover .overlay {
+.swiper-slide:hover .overlay {
     display:block;
     background-color:#496a8d;
     opacity:0.75;
@@ -432,7 +432,7 @@ ul.case-con li {
 
 }
 
-.swiper2-slide:hover .in-con {
+.swiper-slide:hover .in-con {
 	display: none;
 }
 
@@ -477,6 +477,7 @@ h1.hed-sol.frstcontent {
 	color: #496a8d;
 	font-size: 15px;
 	text-align: center;
+	    margin-top: 15px;
 }
 
 .overlay h2 {
@@ -1302,9 +1303,9 @@ section#section5 {
 		 border-radius: 0 0 30px 30px;
 	 }
 
-	.swiper2-container {
+	.swiper-container {
 		width: 100%;
-		height: auto;
+		height: auto !important;
 		margin-left: 0px !important;
 	}
 
@@ -1483,7 +1484,7 @@ section#section5 {
 		margin-left: 0;
 		background-image: none;
 		
-		margin-bottom: 50rem;
+		margin-bottom: 0rem;
 		    padding-right: 1rem;
     padding-left: 0.7rem;
 	}
@@ -1508,7 +1509,7 @@ section#section5 {
 		margin-left: 0;
 	}
 
-	.swiper2-slide .overlay1 {
+	.swiper-slide .overlay {
 	    display: block;
     background-color:#496a8d !important;
     opacity: 0.75 !important;
@@ -1517,28 +1518,9 @@ section#section5 {
     margin-left: 0px !important;
     margin-right: 0px !important;
 	}
-	.swiper2-slide .overlay2 {
-	    display: block;
-    background-color: #F4FAFF !important;
-    opacity: 0.75 !important;
-    position: relative;
-	color:#FFFFFF;
-	   /*   border-radius: 20px; */
-    margin-left: 0px !important;
-    margin-right: 0px !important;
 	
-	}
-	.swiper2-slide .overlay3 {
-	    display: block;
-    background-color: #EAEAEA !important;
-    opacity: 0.75 !important;
-    position: relative;
-	   /*   border-radius: 20px; */
-    margin-left: 0px !important;
-    margin-right: 0px !important;
-	}
 
-	.swiper2-slide .in-con {
+	.swiper-slide .in-con {
 		display: none;
 	}
     img.dog-IMG{
@@ -1546,7 +1528,7 @@ section#section5 {
      margin-right: 0px ; 
 	 border-radius: 0px;
 	}
-	.usecasesec .swiper2-slide img {
+	.usecasesec .swiper-slide img {
 	    width: 100%;
     height: 23rem;
 	}
@@ -1566,36 +1548,23 @@ section#section5 {
 		color: #172738;
 		font-family: 'Nolan';
 	}
-	.overlay1 h2 {
+	.overlay h2 {
 		font-size: 28px;
 		font-weight: 500;
 		padding-bottom: 1rem;
 		color: #FFFFFF;
 			font-family: 'Nolan';
 	}
-	.overlay1 p.par-1 {
+	.overlay p.par-1 {
 		line-height: 1.3;
 		font-size: 19px;
 		font-weight: 300;
 		color: #F4FAFF;
 		font-family: 'Lato';
 	}
-	.overlay2 p.par-1 {
-		line-height: 1.3;
-		font-size: 19px;
-		font-weight: 300;
-		color: #17416D;
-		font-family: 'Lato';
-	}
-	.overlay3 p.par-1 {
-		line-height: 1.3;
-		font-size: 19px;
-		font-weight: 300;
-		color:#17416D;
-		font-family: 'Lato';
-	}	
 	
-	.usecasesec .swiper2-slide h1, .usecasesec .swiper2-slide .overlay {
+	
+	.usecasesec .swiper-slide h1, .usecasesec .swiper-slide .overlay {
 		width: 100%;
 		    margin-top: -23rem;
 	}
@@ -1802,7 +1771,7 @@ section#section5 {
 	}
 
 
-.swiper2-slide {
+.swiper-slide {
 	margin-right: 0px !important;
 	margin-left: 0px !important;
 }
