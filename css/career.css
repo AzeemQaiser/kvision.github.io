@@ -909,3 +909,9 @@ min-height: unset !important;
     margin-left: 30rem;
     }
  }
+@media (min-width: 991px) {
+	.row.mbr-white {
+    width: 86%;
+    padding-left: 70px !important;
+}
+}

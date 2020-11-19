@@ -1,8 +1,5 @@
-section.career {
-    /* background-color: #414141; */
-    height: 830px;
-    margin-bottom: 190px;
-}
+
+
 .career .col-sm-4.col-lg-4.container1 {
    margin-top: 10px;
    margin-left: 1px;
@@ -610,7 +607,15 @@ img.downarrow.swiper-button-disabled {
    height: 35px;
 }
 @media (max-width: 768px) {
-
+.pad-job1 {
+    padding-bottom: 140rem;
+}
+.pad-job2 {
+    padding-bottom: 154rem;
+}
+.pad-job3 {
+    padding-bottom: 105rem;
+}
     .bg-car {
         /* padding-right: 23px; */
         margin-left: -50px;
@@ -620,7 +625,7 @@ img.downarrow.swiper-button-disabled {
     .title h2 {
         font-size: 44px;
         margin-left: -70px;
-        margin-top: 40px;
+        margin-top: 48px;
         text-align: center;
     }
 
@@ -660,10 +665,19 @@ img.downarrow.swiper-button-disabled {
        text-align: left;
    
    }
-
-   section.career {
+  section.career1 {
     /* background-color: #414141; */
-    height: 1380px;
+       height: 130REM;
+    margin-bottom: 190px;
+}
+   section.career2 {
+    /* background-color: #414141; */
+       height: 128REM;
+    margin-bottom: 190px;
+}
+  section.career3 {
+    /* background-color: #414141; */
+       height: 128REM;
     margin-bottom: 190px;
 }
    .career .title {
