@@ -1,4 +1,8 @@
-
+section.career {
+    /* background-color: #414141; */
+    height: 830px;
+    margin-bottom: 190px;
+}
 
 .career .col-sm-4.col-lg-4.container1 {
    margin-top: 10px;
@@ -614,7 +618,7 @@ img.downarrow.swiper-button-disabled {
     padding-bottom: 154rem;
 }
 .pad-job3 {
-    padding-bottom: 105rem;
+    padding-bottom: 168rem;
 }
     .bg-car {
         /* padding-right: 23px; */
