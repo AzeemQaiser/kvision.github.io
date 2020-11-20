@@ -1,4 +1,8 @@
 $(document).ready(function() {
+	  AOS.init({
+         duration: 3000,
+         once: true,
+     });
     $('body').css("overflow-x", "hidden !important");
     $("#header").load("header.html");
     $("#footer").load("footer.html");
