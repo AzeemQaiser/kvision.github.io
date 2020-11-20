@@ -41,3 +41,6 @@ function businessMore() {
 function consumerMore() {
     window.location.href = 'consumer.html';
 }
+function closeModal(){
+	$("#modaltriggerBtn").click();
+}

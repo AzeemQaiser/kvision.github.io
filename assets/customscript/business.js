@@ -42,7 +42,9 @@ $(document).ready(function() {
 	initComparisons();
 	//initiateSwiper();
 });
-
+function launchModal(){
+	$("#modaltriggerBtn").click();
+}
   function initComparisons() {
            var x, i;
            /*find all elements with an "overlay" class:*/
