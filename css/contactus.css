@@ -1013,59 +1013,7 @@ p.contactsec-brntitle {
 }
 
 /*footer css*/
- .footersecnew1{
-    background-color: #1d3855 !important;
-    font-family: Nolan !important;
-    color: #7D8D9D !important;
-    font-weight: 600 !important;
-    padding: 40px 30px !important;
-    height: auto !important;
-    text-align: center !important;
-    width: 90% !important;
-    display: block !important;
-    margin: -75px auto 0!important;
-    font-size: 14px !important;
-}
 
-.footer1 .footermar {
-    padding-bottom: 70px;
-    padding-top: 25px;
-}
-.footer1 .footermar hr {
-    display: none;
-}
-.footermar ul.list.mbr-fonts-style.display-4.pad {
-    padding: 0;
-    margin: 0;
-}
-.footer1 .footermar li {
-    text-align: center;
-    color: #C5C8CB;
-    font-size: 20px;
-    font-weight: initial;
-    padding-bottom: 7px;
-}
-.footer1 .footermar .mbr-white > div:nth-child(1) li:nth-child(2),
- .footer1 .footermar .mbr-white > div:nth-child(1) li:nth-child(3),
- .footer1 .footermar .mbr-white > div:nth-child(1) li:nth-child(4),
- .footer1 .footermar .mbr-white > div:nth-child(1) li:nth-child(5),
- .footer1 .footermar .mbr-white > div:nth-child(1) li:nth-child(7) {
-    display: none;
-}
-.footer1 .footermar .mbr-white > div:nth-child(2) li:nth-child(2),
- .footer1 .footermar .mbr-white > div:nth-child(2) li:nth-child(3){
-	  display: none;
- }
- .footer1 .footermar .mbr-white > div:nth-child(3) {
-	 display: none;
- }
- .footer1 .footermar .mbr-white > div:nth-child(4) li:nth-child(1),
- .footer1 .footermar .mbr-white > div:nth-child(4) li:nth-child(4){
-	  display: none;
- }
- .footer1 .social-row {
-    padding-top: 15px;
-}
 /*footer style ends*/
 	
 	
