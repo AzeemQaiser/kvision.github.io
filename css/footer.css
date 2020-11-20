@@ -125,6 +125,9 @@ p.contact {
 .cid-sckHfhtRnm .list {
     margin-bottom: 0rem;
   }
+  .contact {
+    display: none;
+}
 }
 @media (max-width: 767px) {
 .cid-sckHfhtRnm .row {
@@ -203,8 +206,8 @@ p.contact {
 
   
 
-p.contact {
-    margin-left: 6.5rem;
+.contact {
+    margin-left: 0rem;
     display: block;
 }
 }

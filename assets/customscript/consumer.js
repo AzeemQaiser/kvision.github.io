@@ -65,3 +65,6 @@ $(document).ready(function() {
     $("#footer").load("footer.html");
 	//initiateSwiper();
 });
+function launchModal(){
+	$("#modaltriggerBtn").click();
+}

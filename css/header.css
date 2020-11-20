@@ -886,3 +886,9 @@ ul.subCatagory2 .menuitem-align {
 .activeMenu{
 	 color: #00F5FF !important;
 }
+ .modal-content{
+	height: 227px !important;
+}
+.modalCust{
+	    overflow-y: hidden !important;
+}

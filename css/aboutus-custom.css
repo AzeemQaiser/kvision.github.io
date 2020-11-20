@@ -603,7 +603,12 @@ a.text-white.active {
 .form-control:-webkit-input-placeholder>.mbr-iconfont {
 	font-size: 1.375rem;
 }
-
+.image-wrap img {
+    border-radius: 26px;
+}
+.about-us-img.about-us-img-mobile img {
+    border-radius: 26%;
+}
 
 /* Forms */
 
