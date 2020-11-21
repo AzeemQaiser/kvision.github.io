@@ -785,6 +785,7 @@ body {
 	padding-top: 2rem;
 	padding-left: 10px;
 	padding-right: 10px;
+	    height: 13rem;
 }
 
 .location {
@@ -857,6 +858,10 @@ p.add-1 {
 	line-height: 1.5;
 	font-size: 9px;
 }
+.row.locaterow p.head {
+    line-height: 1.5;
+    font-size: 15px;
+}
 
 .location .container {
 	width: 60%;
@@ -915,7 +920,7 @@ li.rollingstone {
 /**********************21-10-2020******************************/
 
 .titlewrapper {
-	padding-top: 5rem;
+	padding-top: 6rem;
 	padding-left: 10rem;
 }
 
@@ -1144,7 +1149,7 @@ section#about-us-section {
 	/* min-height: 0rem; */
 	text-align: left;
 	margin-top: 2rem;
-	height: 5rem !important;
+	height: 7rem !important;
 	width: 100% !important;
 }
 
@@ -1213,9 +1218,12 @@ img.people-IMG {
 }
 
 .col-sm-2.align-center.mediaAlign p {
-	font-size: 34px;
-	font-weight: 500;
-	padding-top: 3rem;
+    font-size: 33px;
+    font-weight: 500;
+    padding-top: 3rem;
+    padding-left: 2rem;
+    font-family: 'nolanlight';
+    padding-bottom: 2rem;
 }
 
 .col-sm-10.mediaDtlCol {
@@ -1382,7 +1390,7 @@ img.people-IMG {
 	
 	.bar-1 {
 		background-color: #f5feff;
-		height: 10rem;
+		height: 8rem;
 		/* padding-bottom: 30px; */
 		margin-bottom: 0px;
 		width: 180%;
@@ -1404,14 +1412,23 @@ img.people-IMG {
 	}
 	
 	.mediabg1 img {
-		margin-bottom: 2rem;
+	    margin-bottom: 2rem;
+    margin-left: 1.8rem;
 	}
 	
 	.mediabg2 img {
-		margin-bottom: 2rem;
+		    margin-bottom: 2rem;
+    margin-left: 5rem;
 	}
 }
 @media (max-width: 768px) {
+	.mediabg1 {
+	    background: #F4FAFF;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    padding-left: 50px;
+    padding-right: 50px;
+}
 	.hdrsec1 {
 		background-color: #F4FAFF;
 		min-height: 0rem;
@@ -1423,10 +1440,10 @@ img.people-IMG {
 	}
 	
 	.topbarcnt h2 {
-		font-size: 26px;
-		font-weight: 500;
-		line-height: 0.7;
-		letter-spacing: -2px;
+			font-size: 30px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -2.5px;
 	}
 	
 	.mb-imgpos {

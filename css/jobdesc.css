@@ -3,8 +3,12 @@ section.career {
     height: 830px;
   
 }
-section.career.pad-job3 {
+section.career {
     overflow-x: hidden;
+}
+section.career.pad-job3 {
+  
+	 overflow-y: hidden;
 }
 .career .col-sm-4.col-lg-4.container1 {
    margin-top: 10px;
@@ -72,6 +76,8 @@ img.scrip-IMG {
    padding-top: 1.5rem;
    padding-bottom: 0.5rem;
    margin-right: 0px;
+   
+    color: #17416D;
 }
 .bg-car p {
    line-height: 1.4;
@@ -86,7 +92,7 @@ img.scrip-IMG {
 
 .bg-car .blackheader {
     /* font-size: 68px; */
-    color: black;
+   color: #17416D;
     font-size: 24px;
     margin-top: 5px;
 
@@ -620,22 +626,25 @@ img.downarrow.swiper-button-disabled {
 }
 @media (max-width: 768px) {
 .pad-job1 {
-    padding-bottom: 140rem;
+    padding-bottom: 146rem;
 }
 .pad-job2 {
     padding-bottom: 154rem;
 }
 .pad-job3 {
-    padding-bottom: 168rem;
+    padding-bottom: 184rem;
 }
 
 button.back-button {
-       display: block;
+        display: block;
     border-right: none;
     border-left: none;
     border-top: none;
     background: #ffffff;
-    margin-top: 80px;;
+    margin-top: 80px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #17416D;
 	
 }
     .bg-car {
@@ -681,7 +690,7 @@ button.back-button {
    
    .bg-car .blackheader {
        /* font-size: 68px; */
-       color: black;
+       color: #17416D;
        font-size: 24px;
        margin-top: 30px;
        text-align: left;
@@ -747,7 +756,7 @@ section.career-1{
 .col-sm-6.col-lg-6 p {
    width: 90%;
    text-align: left;
-   margin: 0px auto;
+   margin: 15px auto;
 }
 section.career-2 {
    margin-top: 0;

@@ -57,7 +57,7 @@ p.inside {
 p.outside {
     margin-left: 0;
     margin-top: 1em;
-    font-size: 13px;
+    font-size: 16px;
 }
 img.run-IMG {
     margin-top: 60;
@@ -154,7 +154,7 @@ section.business {
 	    position: relative;
 }
 .benefit-icon2{
-	    margin-top: 0px;	
+	    margin-top: -15px;	
 }
 .benefit-icon1{
 	  margin-top: 0px;	
