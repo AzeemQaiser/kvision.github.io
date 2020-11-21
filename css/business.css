@@ -1467,6 +1467,7 @@ html.scrollfixhide {
 	.row.mbr-white {
     width: 86%;
     padding-left: 70px !important;
+    padding-top: 20px;
 }
 }
 .swiper-button-disabled {
