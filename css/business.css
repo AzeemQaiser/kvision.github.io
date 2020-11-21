@@ -1447,8 +1447,11 @@ width: 22px;
             color: white;
         }
         .partner-img {
-            margin-top: -1rem;
-            margin-bottom: 1rem;
+           margin-top: -1rem;
+    margin-bottom: 1rem;
+    transform: scale(1.7);
+    width: 100%;
+			
         }
 		.mobileImg{
 			display:block;

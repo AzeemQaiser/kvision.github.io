@@ -556,6 +556,10 @@ img.downarrow.swiper-button-disabled {
     height: 35px;
 }
 @media (max-width: 768px) {
+	img.tag-IMG {
+    display: inline-flex;
+    width: 200%;
+}
 	.dotGrid.career{
 	background-color: #F4FAFF;
 	width: 80%;

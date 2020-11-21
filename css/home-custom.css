@@ -4,7 +4,7 @@ html.scrollfixhide {
 section.benefit-section {
  /*  background-image: linear-gradient(#CAE0F0, #FEFEFE); */
     padding-top: 0rem;
-    padding-bottom: 7.5rem;
+    padding-bottom: 9.5rem;
 }
 .benefit-info-pad {
     padding-left: 6rem;
@@ -17,6 +17,7 @@ section.benefit-section {
     padding-bottom: 8px;
     font-family: 'Lato';
     letter-spacing: -0.7px;
+	    text-align: center;
 }
 .benefitContent {
     padding-bottom: 3rem;
@@ -54,6 +55,15 @@ section.benefit-section {
 .benfit-con1 {
     padding-left: 6px;
 }
+hr.moblie-line1 {
+    display: none;
+}
+hr.moblie-line2 {
+    display: none;
+}
+hr.moblie-line3 {
+    display: none;
+}
 hr .border{
     box-sizing: content-box;
     height: 0;
@@ -88,7 +98,7 @@ font-weight: 300;
 }
 
 .sec2-cont {
-    padding-top: 4rem;
+    padding-top: 2rem;
 }
 .benefit-dtls ul {
     list-style: none;
@@ -129,7 +139,7 @@ font-size: 18px;
     font-weight: 400 !important;
 }
 .benefit-Bg {
-    padding-top: 1rem;
+  
 	    position: absolute;
 }
 .benefit-dtls li {
@@ -525,7 +535,23 @@ section#section2 .container {
 }
 }	
 @media (max-width: 768px) {
+
+hr.moblie-line1 {
+    margin-left: -7rem;
+    width: 200%;
+	 display: block;
+}
+hr.moblie-line2 {
+    margin-left: -7rem;
+    width: 200%;
+	 display: block;
+}
+hr.moblie-line3 {
+    margin-left: -7rem;
+    width: 200%;
+	 display: block;
 	
+}
 .benefitsectionbg img {
     /* width: 548px; */
     /* height: 226px; */
@@ -707,8 +733,9 @@ button.click1 {
     
 }
 .partner-img {
-    margin-top: -1rem;
-	    float: none;
+    margin-top: 4rem;
+    float: none;
+    
 }
 
 .partnersec-txt p {
@@ -760,6 +787,11 @@ section#section5 {
 }
 
 @media (max-width: 767px) {
+	.partner-img {
+    margin-top: 4rem;
+    float: none;
+    transform: scale(1.9);
+}
 	.benefit-dtls p{
 	display: none;
 }
