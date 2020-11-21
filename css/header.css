@@ -768,7 +768,7 @@ nav.navbar.navbar-dropdown .navbar-collapse .navbar-nav {
     text-align: left;
 }
 nav.navbar.navbar-dropdown .navbar-collapse .navbar-nav .nav-item {
-    background-color: #17416d;
+    background-color: #17416d !important;
     width: 100%;
     padding-top: 0;
     padding-bottom: 0;

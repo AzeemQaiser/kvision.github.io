@@ -49,8 +49,8 @@
 .cid-sckHfhtRnm {
      background-color: #16222E;
     /* margin-bottom: 3rem; */
-    padding-top: 2rem;
-    padding-bottom: 1rem;
+   /* padding-top: 2rem;
+    padding-bottom: 1rem;*/
 }
 .cid-sckHfhtRnm .social-row {
   display: flex;
@@ -142,7 +142,7 @@ p.contact {
     flex-wrap: wrap;
    
     margin-right: 1.5rem;
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
  .cid-sckHfhtRnm .row {
     text-align: center;
