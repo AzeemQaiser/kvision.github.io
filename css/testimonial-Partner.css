@@ -422,7 +422,7 @@ section.swipe h2 {
 	display:none;
 }
 .partner-cust-wrapper {
-    height: 49rem;
+       height: auto;
 }
 .swipe .container .page {
     margin-left: 1rem;
@@ -433,5 +433,8 @@ section.swipe.slider-1 {
 }
 section.swipe.slider-1 {
     overflow-y: hidden;
+}
+.swipe .container .page {
+    width: 92%;
 }
  }
