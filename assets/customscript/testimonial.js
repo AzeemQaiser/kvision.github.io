@@ -1,5 +1,6 @@
   var swiper = new Swiper('.swiper-container', {
-	   effect: 'flip',
+	   effect: 'slide',
+	   clickable: true,
         navigation: {
            nextEl: '.downarrow',
            prevEl: '.uparrow',

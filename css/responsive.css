@@ -219,10 +219,4 @@ button.click{
     padding-bottom: 0rem;
     background-color: #ffffff;
 }
-li.nav-item:nth-child(odd) {
-    background-color: #17416d !important;
-}
-li.nav-item:nth-child(even) {
-    background-color: #203143 !important;
-}
 }

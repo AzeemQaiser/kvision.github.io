@@ -668,7 +668,10 @@ a.text-white.active {
 	width: 100%;
 	height: auto;
 }
-
+.location-img-container {
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
 iframe.lazy-placeholder,
 .lazy-placeholder:after {
 	content: '';
@@ -789,13 +792,15 @@ body {
 }
 
 .location {
-	margin-top: 5rem;
-	font-size: 30px;
-	margin-bottom: 3rem;
-	background-color: #F4FAFF;
-	height: 21rem;
+	    margin-top: 2rem;
+    font-size: 30px;
+    margin-bottom: 0rem;
+    background-color: #F4FAFF;
+    height: 23rem;
 }
-
+.teamheader {
+    margin-top: 4rem;
+}
 .bar-2 {
 	background-color: #172738;
 	height: 15rem;
@@ -851,16 +856,17 @@ p.add-1 {
 }
 
 .bar-1 p {
-	font-size: 13px;
+	font-size: 12px;
 }
 
 .row.locaterow p {
 	line-height: 1.5;
-	font-size: 9px;
+	font-size: 12px;
 }
 .row.locaterow p.head {
     line-height: 1.5;
-    font-size: 15px;
+    font-size: 7px;
+	    letter-spacing: 3px;
 }
 
 .location .container {
@@ -876,9 +882,12 @@ p.add-1 {
 }
 
 .bar-1:hover p {
-	font-size: 13px;
+	font-size: 12px;
 }
-
+.bar-1:hover .head {
+	color: #6FE3FF;
+}
+    
 li.mashable {
 	background: #F4FAFF;
 }
@@ -1221,7 +1230,7 @@ img.people-IMG {
     font-size: 33px;
     font-weight: 500;
     padding-top: 3rem;
-    padding-left: 2rem;
+    padding-left: 3rem;
     font-family: 'nolanlight';
     padding-bottom: 2rem;
 }
@@ -1262,6 +1271,7 @@ img.people-IMG {
 .bar-1 {
 	background-color: #F4FAFF;
 	height: 13rem;
+	    padding-top: 1rem;
 }
 
 .row.media-icon-wrapper ul {
@@ -1389,13 +1399,14 @@ img.people-IMG {
 	}
 	
 	.bar-1 {
-		background-color: #f5feff;
-		height: 8rem;
-		/* padding-bottom: 30px; */
-		margin-bottom: 0px;
-		width: 180%;
-		margin-left: -80px;
-		margin-bottom: -15px;
+	    background-color: #f5feff;
+    height: 11rem;
+    /* padding-bottom: 30px; */
+    margin-bottom: 0px;
+    width: 180%;
+    margin-left: -80px;
+    margin-bottom: -15px;
+    padding-top: 1rem;
 	}
 	
 	.row.media-icon-wrapper ul {
@@ -1433,17 +1444,22 @@ img.people-IMG {
 		background-color: #F4FAFF;
 		min-height: 0rem;
 		margin-left: 0rem;
-		padding-top: 3em/* text-align: right; */
-		;
+		padding-top: 3em;
+		    padding-bottom: 8rem;
 		margin-top: 3rem;
 		height: 4rem;
 	}
 	
 	.topbarcnt h2 {
-			font-size: 30px;
+			font-size: 35px;
     font-weight: 500;
     line-height: 1;
     letter-spacing: -2.5px;
+    color: #17416D;
+    font-family: 'nolanlight';
+    font-weight: 600;
+    letter-spacing: 0px;
+    text-align: center;
 	}
 	
 	.mb-imgpos {
@@ -1451,8 +1467,8 @@ img.people-IMG {
 	}
 	
 	.titlewrapper {
-		    padding-top: 0rem;
-    padding-left: 2.5rem;
+	padding-top: 2rem;
+    padding-left: 0rem;
     margin-top: -2.5rem;
 		
 	}
@@ -1491,7 +1507,7 @@ img.people-IMG {
     font-size: 29px;
     font-weight: 400;
     padding-bottom: 6px;
-    letter-spacing: -2.8px;
+       letter-spacing: 0px;
     color: #17416D;
 	 font-family: 'nolanlight';
 }
@@ -1506,8 +1522,17 @@ img.people-IMG {
 		margin-right: 3rem;
 	}
 	.row.topbarcnt {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.row.locaterow p.head {
+    line-height: 1.5;
+    font-size: 15px;
+	    letter-spacing: 5px;
+}
+.location-img-container {
+    margin-right: 0rem;
+    margin-left: 0rem;
 }
 }
 @media (max-width: 767px) {
@@ -1665,6 +1690,33 @@ img.people-IMG {
 		margin-top: 3rem;
 	}
 	/*landing screen update ends*/
+	.forbes img {
+    width: 58%;
+    margin-left: 2.8rem !important;
+}
+.clnet img {
+    width: 29%;
+	   margin-left: 6rem;
+}
+.mashable img {
+   width: 75%;
+        margin-left: 1.8rem;
+}
+.wired img {
+       width: 63%;
+	        margin-left: 3.5rem;
+}
+.techcrunch img{
+	    margin-left: 0rem;
+}
+.digest img {
+    width: 65%;
+	margin-left: 2.5rem;
+}
+.rollingstone img {
+    width: 89%;
+	        margin-left: 1rem;
+}
 }
 @media (min-width: 768px) {
 	.card-wrap .content-wrap {

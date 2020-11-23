@@ -77,6 +77,20 @@ a.carousel-control.carousel-control-next:hover{
   .cid-scOpuhkrIo .content-slider-wrap {
     width: 100% !important;
   }
+  a.carousel-control.carousel-control-prev:hover{
+	background: none;
+	 -moz-transform: none;
+    -ms-transform: none;
+    -webkit-transform: none;
+    transform: none;
+}
+a.carousel-control.carousel-control-next:hover{
+	background: none;
+	 -moz-transform: none;
+    -ms-transform: none;
+    -webkit-transform: none;
+    transform: none;
+}
 }
 .cid-scOpuhkrIo .container .carousel-indicators {
   margin-bottom: 3px;
@@ -138,10 +152,12 @@ a.carousel-control.carousel-control-next:hover{
   .cid-scOpuhkrIo .carousel-control.carousel-control-prev {
   left: 0;
   margin-left: -0.5rem;
+      display: none;
 }
 .cid-scOpuhkrIo .carousel-control.carousel-control-next {
   right: 0;
   margin-right: -0.5rem;
+   display: none;
 }
 
   .cid-scOpuhkrIo .carousel-indicators {
