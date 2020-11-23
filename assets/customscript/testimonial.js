@@ -1,26 +1,24 @@
-  var swiper = new Swiper('.swiper-container', {
-	   effect: 'slide',
-	   clickable: true,
+  var swiper = new Swiper('.testimonialSwiper', {
         navigation: {
-           nextEl: '.downarrow',
-           prevEl: '.uparrow',
+           nextEl: '.sec3-arrowright',
+           prevEl: '.sec3-arrowleft',
          },
 		  breakpoints: {
          // when window width is >= 320px
           640: {
-              slidesPerView: 1.1,
+              slidesPerView: 1,
              spaceBetween: 0,
 			 direction: 'horizontal'
            },
            768: {
-             slidesPerView: 1.1,
-             spaceBetween: 0,
+             slidesPerView: 1,
+             spaceBetween: 30,
 			 direction: 'horizontal'
            },
            992: {
             slidesPerView: 1,
             spaceBetween: 0,
-			direction: 'vertical'
+			direction: 'horizontal'
            }
          }
     });

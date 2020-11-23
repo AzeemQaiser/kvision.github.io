@@ -726,7 +726,7 @@ button.click1 {
     text-align: center;
     color: #000000;
     font-size: 40px;
-    margin-bottom: 2rem;
+    margin-bottom: 0rem;
     font-weight: 100;
 }
 .partner-highlighttxt p {
@@ -767,7 +767,7 @@ img.partnersec-scrip-img {
 }
 section#section5 {
     padding-bottom: 4rem;
-	    padding-top: 0rem;
+	     padding-top: 2rem;
 }
 .benefitsectionbg {
     padding-left: 1rem;

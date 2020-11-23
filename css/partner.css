@@ -988,7 +988,6 @@ section.swipe {
 }
 .swipe .container .page {
     margin: 0 auto;
-    height: auto !important;
     padding: 0 !important;
     position: unset !important;
     width: 100%;
@@ -1004,8 +1003,6 @@ section.swipe {
     position: unset;
     margin: 0 !important;
     background-color: #fff;
-    box-shadow: 0 15px 30px #7682B72D;
-    border-radius: 35px;
 }
 .word p {
     font-weight: 400;
