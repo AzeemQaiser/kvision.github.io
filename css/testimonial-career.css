@@ -1,0 +1,36 @@
+/**custom class for career testimonial slider ***/
+
+ @media (min-width: 991px) {
+
+	.swiper-container {
+    width: 100%;
+    height: auto;
+	 margin-left: 45px !important;
+}
+section.swipe{
+	padding-bottom: 0rem;
+}
+.location {
+    margin-top: 0rem;
+}
+}
+
+@media (max-width: 768px){
+.swipe .container .page {
+    width: 94%;
+	box-shadow: none;
+}
+.testimonialSwiper {
+    height: 67rem !important;
+}
+section.swipe {
+    padding-top: 0rem;
+    padding-bottom: 55rem;
+}
+.swiper-wrapper{
+	height: auto;
+}
+.location {
+    margin-top: 16rem;
+}
+}
