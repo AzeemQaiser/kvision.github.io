@@ -33,7 +33,10 @@ section.career .container .row {
 .dotGrid {
    background-image: none;
 }
-
+.test-head h2 {
+    font-family: 'nolanlight';
+    color: #17416D;
+}
 .dotGrid.career {
    background-color: #f4faff;
    /* background-color: #d6e7f4; */
@@ -833,15 +836,12 @@ img.downarrow.swiper-button-disabled {
    width: 80%;
 }
 
-
-@media(min-width: 992px) {
-   .row > [class*="col"] {
-       padding-left: 0px !important;
-       padding-right: 0px !important;
-   }
+.swipe .test-head {
+    padding-bottom: 3rem;
 }
 
 }
+
 @media (min-width: 991px) {
 
    .col-sm-4.col-lg-4.container1 {

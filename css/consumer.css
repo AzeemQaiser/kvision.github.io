@@ -40,6 +40,12 @@ section.solution.target {
 .mobileImg{
 			display:none;
 		}
+	.moblie-view {	
+    display: none;	
+}	
+.partner-img.padpartner.web-view {	
+    display: block;	
+}
 img.scrip-IMG {
     /* width: 185px; */
     /* position: absolute; */
@@ -55,7 +61,14 @@ img.scrip-IMG {
 }
 
 
-
+img.arrowright-img.rightimg {
+    margin-top: -14rem;
+}
+img.usecasebg {
+    position: absolute;
+    top: 190px;
+    height: 276px;
+}
 .con-head {
 	padding-top: 2rem;
 	letter-spacing: -3.2px;
@@ -65,7 +78,8 @@ img.scrip-IMG {
 	font-size: 46px;
 	font-weight: 400;
 	letter-spacing: -3.2px;
-
+    font-family: 'nolanlight';
+    color: #17416D;
 }
 
 .consumer-con {
@@ -96,8 +110,13 @@ img.lines-IMG {
 	font-weight: 100;
 	font-family: "nolanlight";
 	letter-spacing: -2.8px;
+	    color: #17416D;
 }
-
+.section.swipe h2{
+	font-family: 'nolanlight';
+    color: #17416D;
+    font-weight: 300 !important;
+}
 .box-icon {
 	padding-top: 24px;
 	margin-left: 0;
@@ -1012,10 +1031,10 @@ input::-webkit-input-placeholder {
 
 section.usecasesec {
     margin-left: 0;
-    background-image: url("/images/Consumer/Mask_Group_15@2x.png");
+  /*  background-image: url("/images/Consumer/Mask_Group_15@2x.png");*/
     height: 500px;
     margin-bottom: 50px;
-    background-position: 0px 250px;
+   /* background-position: 0px 250px;*/
     /* background-repeat: repeat-x; */
     background-size: cover;
     /* position: relative; */
@@ -1211,7 +1230,7 @@ section#section5 {
 	}
 
 	.consumer-con {
-		padding-top: 18rem;
+		padding-top: 23rem;
 	}
 
 	.platcontainer {
@@ -1331,11 +1350,9 @@ section#section5 {
 	.camera-head h2 {
 		text-align: center;
 		padding-top: 0rem;
-		font-size: 34px;
+		font-size: 36px;
 		color: #17416D;
 		font-weight: 500;
-		margin-left: 2rem;
-		    margin-right: 2rem;
 	}
 
 	.consumersecrow .con-head h2 {
@@ -1362,6 +1379,7 @@ section#section5 {
 		margin: 0 auto;
 		font-size: 34px;
 		    margin-top: -3.5rem;
+			color: #17416D;
 	}
 
 	.sol-body .section2 .box-icon ul {
@@ -1441,7 +1459,7 @@ section#section5 {
 		width: 100%;
 		height: auto;
 		padding: 0;
-	    margin-top: -751px;
+	    margin-top: -809px;
 		/* margin-left: 60px; */
 	}
 
@@ -1451,7 +1469,7 @@ section#section5 {
 	}
 
 	.section2 {
-		margin-top: 2rem;
+		margin-top: 7rem;
 	}
 
 	section.plat {
@@ -1581,7 +1599,9 @@ section#section5 {
 
 	.camera-head {
     margin-top: 10rem;
-    width: 90%;
+       width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
   
 }
 
@@ -1782,6 +1802,19 @@ section#section5 {
 	width: 96%;
 	margin: 0 0 0 0;
 	/*	border: 1px solid #90B2CB; removed border as per new design */
+}
+img.usecasebg {
+    display: none;
+}
+ .moblie-view {	
+    display: block;	
+		
+}	
+.partner-img.padpartner.web-view {	
+    display: none;	
+}	
+img.moblie-view-img {	
+    width: 100%;	
 }
 }
 .swiper-button-disabled {

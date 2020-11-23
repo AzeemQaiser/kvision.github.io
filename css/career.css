@@ -105,7 +105,7 @@ section.career-1 {
     font-size: 36px;
     font-weight: 500;
     color: #17416D;
-	font-family: "nolanlight";
+	font-family: "nolanlight" !important;
 	margin-top: 75px;
     margin-bottom: 25px;
     text-align: center;
@@ -208,7 +208,7 @@ section.diversitySection {
  p.in-txt {
     padding-top: 28px;
     font-size: 22px;
-    color: #535050;
+    color: #17416D;
     font-weight: 500;
     padding-bottom: 10px;
     letter-spacing: -1.01px;
@@ -253,7 +253,7 @@ p.div-txt {
   /* background-color: #F4FAFF; */
     /* height: 35rem; */
     /* margin-bottom: 51px; */
-    padding-top: 3rem;
+    padding-top: 0rem;
     padding-bottom: 3rem;
 }
 section.swipe ul {
@@ -468,6 +468,7 @@ img.tag-IMG {
     display: inline-flex;
     width: 147%;
     margin-left: -8px;
+	    margin-top: -3px;
 }
 .page {
    background-color: white;
@@ -555,16 +556,30 @@ img.downarrow.swiper-button-disabled {
     width: 35px;
     height: 35px;
 }
+.img {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
 @media (max-width: 768px) {
+	section.swipe{
+		    padding-top: 3rem;
+	}
+	.img {
+    margin-left: 0rem;
+    margin-right: 0rem;
+}
 	img.tag-IMG {
     display: inline-flex;
     width: 200%;
+	    margin-left: -21px;
+    margin-top: -9px;
 }
 	.dotGrid.career{
 	background-color: #F4FAFF;
 	width: 80%;
 	left: 10%;
 	margin-left: 0;
+	    margin-top: -25px;
 	}
 	section.career {
      /* background-color: #414141; */
@@ -573,12 +588,15 @@ img.downarrow.swiper-button-disabled {
 	 position: relative;
 }
 	.career .title {
-	margin-top: 5rem;
+	margin-top: 3rem;
 text-align: center;
 color: #17416d;
 }
 .career .title h2 {
     font-size: 28px;
+	    font-family: 'nolanlight';
+    font-weight: 300;
+    color: #17416D;
 }
 .career .col-sm-6.col-lg-6 {
     width: 300px;
@@ -590,7 +608,8 @@ color: #17416d;
 	    top: 350px;
 z-index: 5;
 width: 88%;
-width: fit-content
+width: fit-content;
+    padding-right: 2rem;
 }
 .bg-car p{
 	font-size: 16px;
@@ -689,6 +708,7 @@ img.corner-IMG{
 section.swipe{
 	background-color: transparent;
 height: 55rem;
+    margin-top: 4rem;
 }
 .sliderBtn {
     display: none;
@@ -814,6 +834,10 @@ img.downarrow.swiper-button-disabled {
     margin-top: 22rem;
     font-family: unset;
     font-weight: 100;
+	padding-bottom: 1rem;
+	font-family: 'nolanlight';
+    font-weight: 400;
+    color: #17416D;
 }
 .swipe .img-1, .swipe .img-1 img {
     display: none;

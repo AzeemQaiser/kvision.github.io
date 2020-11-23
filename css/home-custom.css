@@ -64,7 +64,7 @@ hr.moblie-line2 {
 hr.moblie-line3 {
     display: none;
 }
-hr .border{
+hr .border-cust{
     box-sizing: content-box;
     height: 0;
     overflow: visible;
@@ -75,8 +75,8 @@ hr .border{
     border: 0;
     border-top: 1px solid rgba(0,0,0,.1);
 }
-.border {
-       border-bottom: 1px solid #dee2e6!important;
+.border-cust {
+       border-bottom: 0.5px solid #dee2e6!important;
     margin-left: 12px;
     width: 143%;
     margin-bottom: 4px;
@@ -352,6 +352,12 @@ li.sidemenu-active span {
 }
 .sec1-con {
     text-align: center;
+}
+	.moblie-view {	
+    display: none;	
+}	
+.partner-img.padpartner.web-view {	
+    display: block;	
 }
 p.inside {
        font-size: 25px;
@@ -643,7 +649,7 @@ section.business {
     color: rgba(23, 65, 109, 1);
     opacity: 30%;
     font: normal normal 300 44px/31px Nolan;
-}}
+}
 .row.bus-border {
     border-style: solid;
     border-color: #ffff;
@@ -813,7 +819,7 @@ section#section5 {
     background-color: #ffff;
     margin-left: 1rem;
     margin-right: 1rem;
-    padding-top: 1.5rem;
+    padding-top: 1rem;
     padding-right: 0em !important;
   /*  align-content: center;
     text-align: center; */
@@ -870,6 +876,27 @@ button.click1 {
 }
 .dotGridHome{
 	display: none;
+}
+.sec2-cont {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.benefit-dtls li {
+    border-bottom: 1px solid #90B2CB;
+    padding-top: 30px;
+}
+.border-cust{
+	display:none;
+}
+ .moblie-view {	
+    display: block;	
+		
+}	
+.partner-img.padpartner.web-view {	
+    display: none;	
+}	
+img.moblie-view-img {	
+    width: 100%;	
 }
 }
 

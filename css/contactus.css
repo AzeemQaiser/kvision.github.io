@@ -19,7 +19,9 @@
 	margin-bottom: 20px;
 
 }
-
+.floatinglabelhead {
+    display: none;
+}
 .case-head h2 {
     color: #17416d;
     font-weight: 100;
@@ -32,17 +34,17 @@ ul.camera-libary {
 }
 
 img.scrip-IMG {
-    width: 250px;
+   width: 250px;
     margin-top: 29rem;
     position: absolute;
-    height: 25.5rem;
+    height: 28.5rem;
     /* left: 324px; */
     z-index: 1;
-	right: 0px;
-	position: absolute;
-    top: -500px;
+    right: 0px;
+    position: absolute;
+    top: -553px;
     transform: rotate(90deg);
-	left: -120px;
+    left: -240px;
 	
                 /* float: right; */
 }
@@ -176,6 +178,8 @@ img.demoscamera1-img {
 	margin-left: auto;
     margin-right: auto;
     border-radius: 25px;
+	    position: sticky;
+    z-index: 10;
 }
 
 img.demoscamera2-img {
@@ -537,9 +541,9 @@ p.contactsec-brntitle {
     border-color: #D6E7F4;
 }
 
-.contactsec-form form .floating-form .floatinglabelhead {
+/*.contactsec-form form .floating-form .floatinglabelhead {
     display: none;
-}
+}*/
 .dotGrid1 {
     background-size: 30px 32px;
     /* background-image:radial-gradient(#DDEEFA 2.7px, transparent 0); */
@@ -756,6 +760,18 @@ p.contactsec-brntitle {
     border-width: 1.5px;
     border-color: #D6E7F4;
 }
+.floatinglabelhead label {
+    text-align: center;
+    padding-left: 1rem;
+    font-size: 33px !important;
+    letter-spacing: -1.8px;
+    color: #000000;
+    opacity: 1;
+}
+.floatinglabelhead {
+    margin-bottom: 1rem;
+	 display: block;
+}
 }
 
 @media (max-width: 767px) {
@@ -969,7 +985,7 @@ p.contactsec-brntitle {
     color: #17416D;
     font-weight: bold;
     padding-bottom: 3px;
-    font-size: 20px;
+    font-size: 24px;
     text-align: left;
 }
 .addrCol p {
@@ -1012,7 +1028,14 @@ p.contactsec-brntitle {
     margin-left: 60px;
     font-size:36px
 }
-
+p.contact-text {
+    line-height: 0.7;
+    font-size: 15px;
+}
+ul.camera-libary li .outdoor {
+    border-bottom: 1px solid #000000;
+    width: 119%;
+}
 /*footer css*/
 
 /*footer style ends*/

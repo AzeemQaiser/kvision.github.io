@@ -31,7 +31,9 @@
 		margin-bottom: 159px;
     }
 	
-
+.section-4-benHead h4{
+	    font-family: 'nolanlight';
+}
 .bg-setction-7{
     
         height: auto;
@@ -906,12 +908,14 @@ background-size: 24px 20px;
     width: 80%;
       margin: 75px auto;
     position: unset;
+	    margin-top: 40px;
+		    height: 7rem;
 }
 .career .title h2 {
-    font-size: 30px;
+   font-size: 34px;
     color: #17416d;
-    font-family: "Nolan";
-    font-weight: 100;
+    font-family: "Nolanlight";
+    font-weight: 300;
 }
 .career .title p {
     color: #17416d;
@@ -950,6 +954,7 @@ background-size: 24px 20px;
 .section-4-benHead h4 {
     font-size: 30px !important;
 	margin-bottom: 1.5rem;
+	    font-family: 'nolanlight';
 }
 section.career {
     height: auto !important;
@@ -972,6 +977,7 @@ section.career {
 section.swipe {
     height: auto;
     padding-top: 0;
+	    margin-top: 3rem;
 }
 .swipe .swiper-slide > div:nth-child(1) {
     width: 100%;

@@ -60,6 +60,8 @@ img.scrip-IMG {
        font-size: 56px;
     font-weight: 400;
     letter-spacing: -3.2px;
+	  font-family: 'nolanlight';
+    color: #17416D;
     
 }
 .consumer-con {
@@ -325,6 +327,11 @@ ul.cases4 {
 	width: 100%;
   
 }
+img.usecasebg {
+    position: absolute;
+    top: 159px;
+    height: 276px;
+}
 .case-head h2 {
 
    
@@ -539,6 +546,9 @@ padding-left: 0;
     /* line-height: 1; */
     padding-bottom: 0.7rem;
     padding-top: 0.7rem;
+	font-family: 'nolanlight';
+    color: #17416D;
+    font-weight: 400;
 }
 .partner-img {
     margin-top: -1rem;
@@ -562,6 +572,12 @@ padding-left: 0;
 	font-family: 'Lato';
 	text-align: center;
 	width: 120%;
+}
+	.moblie-view {	
+    display: none;	
+}	
+.partner-img.padpartner.web-view {	
+    display: block;	
 }
 img.partnersec-scrip-img {
     width: 9%;
@@ -787,10 +803,10 @@ input, input::-webkit-input-placeholder {
 }
 section.usecasesec {
     margin-left: 0;
-    background-image: url("/images/Business/Mask_Group_15@2x.png");
+    /*background-image: url("/images/Business/Mask_Group_15@2x.png");*/
     height: 500px;
     margin-bottom: 0px;
-    background-position: 0px 250px;
+   /* background-position: 0px 250px;*/
     /* background-repeat: repeat-x; */
     background-size: cover;
     /* position: relative; */
@@ -1181,7 +1197,7 @@ img.sliderimg {
             width: 85%;
             height: auto;
             padding: 0;
-            margin-top: -663px;
+            margin-top: -708px;
             margin-left: 10px;
         }
         .consumersecrow .consumer-con {
@@ -1371,7 +1387,7 @@ img.sliderimg {
             .consumersecrow .con-head {
             width: 100%;
             text-align: right;
-            padding-bottom: 16rem;
+            padding-bottom: 20rem;
         }
 
         .dotGridBusiness {
@@ -1459,6 +1475,19 @@ width: 22px;
 		.webStripImg{
 			display:none;
 		}
+		img.usecasebg {
+    display: none;
+}
+ .moblie-view {	
+    display: block;	
+		
+}	
+.partner-img.padpartner.web-view {	
+    display: none;	
+}	
+img.moblie-view-img {	
+    width: 100%;	
+}
 }
 html.scrollfixhide {
     overflow-x: hidden !important;
