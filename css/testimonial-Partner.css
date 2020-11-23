@@ -1,0 +1,437 @@
+/***************************slider css *******************************/
+
+    .swiper-container {
+      width: 100%;
+      height: auto;
+    margin-left: -7px !important;
+    }
+@media (min-width: 991px) {
+	    .testimonialSwiper .swiper-slide {
+ 
+	margin-right: 5px !important;
+    margin-left: 5px !important;
+    }
+}	
+	.testimonial{
+	
+	}
+	.sec3-comma {
+    margin-top: 30px;
+    padding-right: 17px;
+}
+.arrow-align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	margin-top: 2rem;
+	    cursor: pointer;
+}
+.arrow-align img {
+    width: 75%;
+}
+.sec3-arrowleft{
+	transform: rotate(180deg);
+    margin-right: 13px;
+}
+.sec3-arrowright{
+
+}
+.swiper-button-disabled {
+    opacity: 0.2;
+}
+.sec3-bannercontent {
+    width: 70%;
+}
+
+ .postStyle2{
+    background: #2B4057;
+	padding-top:30px;
+    padding-bottom: 30px;
+}
+.postStyle2 .sec3-title{
+	font-size: 22px;
+	line-height: 0;
+	 color: #FFFFFF;
+	font-weight:500;	
+	font-family: 'Lato';
+}
+.postStyle2 .sec3-prof{
+	font-size: 12px;
+    color: #99CDF4;
+    font-weight: 400;
+    font-family: 'Lato';
+}
+.postStyle2 .sec3-cmts{
+	font-size:9px;
+	color: #E2E5E8;
+	font-weight:500;	
+}
+.postStyle1{
+    background: #FFFFFF;
+	padding-top: 30px;
+    padding-bottom: 30px;
+}
+.postStyle1 .sec3-title{
+	font-size: 22px;
+	line-height: 0;
+	 color: #17416D;
+	font-weight:500;
+font-family: 'Lato';	
+}
+.postStyle1 .sec3-prof{
+	font-size: 12px;
+    color: #17416D;
+    font-weight: 400;
+    font-family: 'Lato';
+}
+.postStyle1 .sec3-cmts{
+	font-size:9px;
+	color: #17416D;
+	font-weight:500;	
+}
+.sec3-cmts p {
+        line-height: 1.5;
+    font-family: 'Lato';
+    font-size: 12px;
+    letter-spacing: -0.16px;
+}
+.sec3-comma {
+    margin-top: 2px;
+}
+.sec3-comma img {
+    width: 80%;
+    padding-left: 12px;
+}
+@media (max-width: 767px) {
+	.swiper-slide {
+    display: block;
+	}
+	.sec3-comma img {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 99px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    float: center;
+	}
+	.sec3-bannercontent {
+    width: 100%;
+    margin-top: 19px;
+    text-align: center;
+	    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.sec3-cmts p {
+    line-height: 1.5;
+    font-family: 'Lato';
+    font-size: 13px;
+    letter-spacing: -0.16px;
+}
+.postStyle1 .sec3-title {
+    font-size: 30px;
+    line-height: 0;
+    color: #17416D;
+    font-weight: 500;
+    font-family: 'Lato';
+	  padding-bottom: 8px;
+}
+.postStyle1 .sec3-prof {
+    font-size: 15px;
+    color: #17416D;
+    font-weight: 400;
+    font-family: 'Lato';
+}
+.postStyle2 .sec3-title{
+	font-size: 30px;
+	line-height: 0;
+	 color: #FFFFFF;
+	font-weight:500;	
+	font-family: 'Lato';
+	    padding-bottom: 8px;
+}
+.swiper-container {
+  padding-top: 2rem !important;
+}
+
+}
+
+.swipe .container .page {
+        border-radius: 25px;
+    margin-left: 0px;
+    width: 93%;
+}
+.sliderBtn1 {
+    display: none;
+}
+
+.sliderBtn .uparrow{ cursor: pointer;
+    border-radius: 50%;} .sliderBtn .downarrow {
+    cursor: pointer;
+    border-radius: 50%;
+}
+ section.swipe {
+
+    /* height: 35rem; */
+    /* margin-bottom: 51px; */
+    padding-top: 0rem;
+    padding-bottom: 2rem;
+}
+section.swipe ul {
+    list-style: none;
+}
+
+section.swipe h2 {
+       text-align: center;
+    letter-spacing: -2.8px;
+    padding-bottom: 0rem;
+    font-weight: normal;
+    font-size: 42px;
+    padding-top: 2rem;
+    font-family: 'nolanlight';
+    color: #17416D;
+}
+
+.page {
+   background-color: white;
+    margin-left: 7rem;
+    margin-right: 3rem;
+    /* padding-top: 2rem; */
+    /* padding-bottom: 2rem; */
+    padding: 3rem 1.7rem 2rem 4rem;
+    height: 22rem;
+    display: flex;
+    /* box-shadow: 0 2px 2px rgba(0,0,0,0.16), 0 2px 2px rgba(0,0,0,0.11); */
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    /* box-shadow: 5px 10px 18px #EDEDED; */
+    -webkit-box-shadow: 0px 2px 8px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 8px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 8px 2px #EAECF4;
+    position: relative;
+    z-index: 10;
+}
+.backdiv {
+       width: 78%;
+    background: #ffff;
+    height: 3.5rem;
+    box-shadow: 0px 2px 8px 2px #EAECF4;
+    margin-left: 7.2rem;
+    border-radius: 25px;
+    /* position: absolute; */
+    margin-top: -17px;
+}
+.backdiv2 {
+      width: 86%;
+    background: #ffff;
+    height: 1.9rem;
+    box-shadow: 0px 2px 8px 2px #EAECF4;
+    margin-left: 4.2rem;
+    border-radius: 73px;
+    position: absolute;
+    margin-top: -49px;
+}
+
+    .swiper-container {
+      width: 100%;
+      height: 25rem;
+	  
+    }
+
+    .swiper-slide {
+     
+      font-size: 18px;
+     
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      
+    }
+	img.uparrow.swiper-button-disabled {
+    opacity: 0.2;
+}
+img.downarrow.swiper-button-disabled {
+    opacity: 0.2;
+}
+ .testimonial-bigbox img {
+    width: 70px;
+    height: 70px;
+}
+.testimonial-bigbox {
+       position: absolute;
+    left: 3rem;
+    top: 2rem;
+}
+.testimonial-smallbox {
+    position: absolute;
+    top: 17.8rem;
+    margin-left: 12rem;
+}
+.testimonial-smallbox img {
+    width: 35px;
+    height: 35px;
+}
+@media (max-width: 768px) {
+	
+section.swipe{
+	background-color: transparent;
+height: 40rem;
+}
+.sliderBtn {
+    display: none;
+}
+
+.page {
+    background-color: transparent;
+    box-shadow: none;
+	    margin-right: 0rem;
+		    padding: 3rem 1.7rem 2rem 2rem;
+	height:49rem !important;
+}
+.testimonialSwiper {
+    height: 52rem !important;
+}
+.swipe .container .page {
+    margin-left: 0px;
+	
+}
+
+    .swiper-container {
+      width: 100%;
+      height: 52rem;
+	  
+    }
+
+    .swiper-slide {
+     
+      font-size: 18px;
+     
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      
+    }
+	img.uparrow.swiper-button-disabled {
+    opacity: 0.2;
+}
+img.downarrow.swiper-button-disabled {
+    opacity: 0.2;
+}
+.backdiv {
+      display: none;
+}
+.img-1 {
+      border: 0px solid #9CCEDD;
+    padding: 2rem 2rem 0rem 2rem;
+    height: 16rem;
+	z-index: 1;
+}
+.testimonial-smallbox {
+    position: absolute;
+    top: 17.8rem;
+    margin-left: 12rem;
+    z-index: 1;
+}
+.swipe .container .page {
+    width: 100%;
+}
+ section.swipe {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+}
+
+ @media (max-width: 991px) {
+    
+	.sliderBtn1 {
+    display: block;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    padding-bottom: 8rem;
+}
+img.uparrow1 {
+    width: 20%;
+    border-radius: 50px;
+    transform: rotate(180deg);
+    margin-left: 27px;
+}
+img.downarrow1 {
+       width: 20%;
+    border-radius: 50px;
+    float: right;
+    margin-top: -44px;
+    margin-right: 87px;
+}
+section.swipe h2 {
+    text-align: center;
+    letter-spacing: -2.8px;
+    padding-bottom: 0rem;
+    font-weight: normal;
+    font-size: 50px;
+}
+ }
+
+/***********23-11-2020- testimonial slider style 2*********************/
+.arrow-align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+.sec3-arrowleft {
+    transform: rotate(180deg);
+    margin-right: 13px;
+}
+.arrow-align img {
+    width: 75%;
+    border-radius: 50%;
+}
+.testimonialSwiper.partner-testimonial-hgt {
+   height: 30.5rem !important;
+}
+.partner-cust-wrapper {
+    height: 28rem;
+}
+ @media (max-width: 768px) {
+	 .testimonialSwiper.partner-testimonial-hgt {
+        height: 40rem !important;
+    /* border: 1px solid; */
+
+}
+.arrow-align{
+	display:none;
+}
+.partner-cust-wrapper {
+    height: 49rem;
+}
+.swipe .container .page {
+    margin-left: 1rem;
+    box-shadow: 0px 2px 8px 2px #EAECF4;
+}
+section.swipe.slider-1 {
+    height: 22rem;
+}
+section.swipe.slider-1 {
+    overflow-y: hidden;
+}
+ }

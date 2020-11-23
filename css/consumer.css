@@ -3,6 +3,9 @@
       padding-left: 0px !important;
       padding-right: 16px;
     }
+	section.swipe .container {
+    padding-left: 70px;
+}
   }
 
 html.scrollfixhide {
@@ -68,6 +71,7 @@ img.usecasebg {
     position: absolute;
     top: 190px;
     height: 276px;
+	padding-right: 48px;
 }
 .con-head {
 	padding-top: 2rem;
@@ -1499,12 +1503,13 @@ section#section5 {
 	}
 
 	section.usecasesec {
-		margin-left: 0;
-		background-image: none;
-		
-		margin-bottom: 0rem;
-		    padding-right: 1rem;
-    padding-left: 0.7rem;
+	    margin-left: 0;
+    background-image: none;
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+    margin-left: 1.4rem;
+    /* padding-right: 1rem; */
+    /* padding-left: 0.7rem; */
 	}
 
 	.usecasesec .container {

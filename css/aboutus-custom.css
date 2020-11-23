@@ -1751,6 +1751,19 @@ img.people-IMG {
 		margin-left: -6rem;
 		display: block;
 	}
+	.col-sm-2.align-center.mediaAlign {
+	    padding-left: 35px;
+    margin-top: 1rem;
+}
+
+.col-sm-2.align-center.mediaAlign p {
+    font-size: 27px;
+    font-weight: 500;
+    padding-top: 3rem;
+    padding-left: 3rem;
+    font-family: 'nolanlight';
+    padding-bottom: 2rem;
+}
 }
 @media (max-width: 992px) {
 	p.headquarters1 {
