@@ -1,14 +1,14 @@
-section.career {
+section.kvpartner {
     /* background-color: #414141; */
     /* margin-top: 430px; */
     /* height: 330px; */
 }
-.career .col-sm-4.col-lg-4.container1 {
+.kvpartner .col-sm-4.col-lg-4.container1 {
    margin-top: 10px;
    margin-left: 1px;
    padding: 0px
 }
-section.career .container .row {
+section.kvpartner .container .row {
    position: relative;
    /* margin-top: 50px */
 }
@@ -37,7 +37,7 @@ section.career .container .row {
     font-family: 'nolanlight';
     color: #17416D;
 }
-.dotGrid.career {
+.dotGrid.kvpartner {
    background-color: #f4faff;
    /* background-color: #d6e7f4; */
    width: 100%;
@@ -50,12 +50,12 @@ section.career .container .row {
    /* left: -36%; */
 }
 
-.dotGrid .career {
+.dotGrid .kvpartner {
    margin-top: 5rem;
    margin-bottom: 47px;
 }
 
-.dotGrid .career h2 {
+.dotGrid .kvpartner h2 {
    font-weight: bolder;
 }
 
@@ -144,7 +144,7 @@ p.car-con {
    width: 50%; float: left;
 }
 
-.career .col-sm-6.col-lg-6 {
+.partner .col-sm-6.col-lg-6 {
    display: inline-block;
    flex: unset;
    max-width: unset;
@@ -166,7 +166,7 @@ img.discuss-IMG {
 }
 img.mask-IMG {
 }
-section.career-1 {
+section.kvpartner-1 {
    margin-bottom: 2rem;
    margin-top: 2rem;
 }
@@ -191,23 +191,23 @@ section.career-1 {
    width: 58%;
    margin: 0 auto;
 }
-.row.career-workculture {
+.row.kvpartner-workculture {
    margin: 50px auto 0;
 }
-.row.career-workculture .col-sm-6 {
+.row.kvpartner-workculture .col-sm-6 {
    padding: 0;
    width: 45%;
    max-width: unset;
    flex: unset;
    margin-left: 5%;
 }
-section.career-2 {
+section.kvpartner-2 {
    margin-top: 50px;
    margin-bottom: 0px;
    background-color: #D6E7F4;
    height: 450px;
 }
-.career-2 .container {
+.kvpartner-2 .container {
    /* padding-left: 88px; */
    padding-right: 0;
    position: relative;
@@ -222,7 +222,7 @@ img.corner-IMG {
    right: 35px;
    z-index: 0;
 }
-.career-2 .container .div-IMG {
+.kvpartner-2 .container .div-IMG {
    width: 80%;
    z-index: 1;
    position: relative;
@@ -232,12 +232,12 @@ img.corner-IMG {
    margin-right: auto;
 
 }
-.career-2 .container p.div-txt {
+.kvpartner-2 .container p.div-txt {
    margin: 0 auto;
    text-align: center;
    width: 57%;
 }
-.career-2 .container .col-sm-10 {
+.kvpartner-2 .container .col-sm-10 {
    width: 100%;
    flex: unset;
    max-width: 100%;
@@ -265,14 +265,14 @@ h2 {
 
 }
 
-section.career-2 .center {
+section.kvpartner-2 .center {
    margin: 0 auto;
    padding-left: 20px;
    padding-right: 20px;
    width: 500px;
    text-align: center;
 }
-section.career-2 .center p {
+section.kvpartner-2 .center p {
    font-size: 36px;
    font-weight: 500;
    color: #17416D;
@@ -420,7 +420,7 @@ font-weight: 400;
 .word p.detail {
    padding-top: 7px;
 }
-p.career-name {
+p.kvpartner-name {
   padding-top: 1rem;
    font-size: 12px;
    font-weight: 600;
@@ -622,18 +622,18 @@ section.swipe.slider-1 {
 } */
 
 @media (max-width: 768px) {
-   section.career {
+   section.kvpartner {
     /* background-color: #414141; */
     height: 240px;
     margin-bottom: 190px;
 }
-   .career .title {
+   .kvpartner .title {
    margin-top: 30px;
 }
-.career .title h2 {
+.kvpartner .title h2 {
    font-size: 28px;
 }
-.career .col-sm-6.col-lg-6 {
+.kvpartner .col-sm-6.col-lg-6 {
    width: 86%;
    position: absolute;
    top: 30px;
@@ -659,13 +659,13 @@ img.discuss-IMG{
    font-family: 'Lato';
    font-weight: 100;
 }
-section.career-1{
+section.kvpartner-1{
    margin-bottom: 0;
 }
-.row.career-workculture {
+.row.kvpartner-workculture {
    margin: 50px -15px 0;
 }
-.row.career-workculture .col-sm-6 {
+.row.kvpartner-workculture .col-sm-6 {
    width: 100%;
    margin: 0 auto 50px;
 }
@@ -674,17 +674,17 @@ section.career-1{
    text-align: center;
    margin: 0px auto;
 }
-section.career-2 {
+section.kvpartner-2 {
    margin-top: 0;
    margin-bottom: 0px;
    margin-left: 0rem;
    margin-right: 1rem;
 }
-section.career-2 .center{
+section.kvpartner-2 .center{
    margin: 0;
    width: 104%;
 }
-.career-2 .container {
+.kvpartner-2 .container {
    padding-left: 0;
    padding-right: 0;
    position: relative;
@@ -783,7 +783,7 @@ img.downarrow.swiper-button-disabled {
    width: 100%;
    margin: 0 auto;
 }
-.career-2 .container p.div-txt {
+.kvpartner-2 .container p.div-txt {
    margin: 0 auto;
    text-align: center;
    width: 80%;
